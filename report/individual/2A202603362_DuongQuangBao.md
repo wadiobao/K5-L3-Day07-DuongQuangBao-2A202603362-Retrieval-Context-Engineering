@@ -66,4 +66,10 @@ python3 starter/run_agent.py --chunks starter/data/day7/chunks.json --questions 
 
 ## Thử thách nâng cao
 
-Không thực hiện; chỉ lập chỉ mục ngữ liệu của một tác phẩm.
+Đã xây dựng corpus riêng từ *World Development Report 2024: The Middle-Income Trap* (276 trang, 339 chunk, 23 chú giải trực quan) và bộ benchmark gồm 18 câu dev (15 có đáp án, 3 thiếu bằng chứng) cùng 30 câu test (24 có đáp án, 6 thiếu bằng chứng). Các nhóm test đáp ứng số lượng tối thiểu của rubric. Không chạy OCR; 13 trang không trích được text đã được kiểm tra và xác định là trang trắng.
+
+Trên dev, baseline TF-IDF với ngân sách ngữ cảnh 9.000 ký tự đạt Hit@1 12/15, Evidence Hit@3 15/15 và đưa evidence vào context 15/15. Đây là kết quả truy hồi, không phải điểm chất lượng câu trả lời của agent.
+
+**Bonus chưa đủ điều kiện nhận điểm.** Agent chưa chạy đủ dev và chưa chạy/chấm toàn bộ test. `gemini-3.5-flash-lite` gặp lỗi 503 do quá tải; các lượt thử với `gemini-2.5-flash-lite` bị giới hạn Free Tier 20 request/ngày và trả lỗi 429. Các kết quả agent đang lưu là lượt chạy dở, không được dùng để suy ra tỷ lệ đạt. Vì vậy chưa có tỷ lệ test n/N, chưa xác minh ngưỡng 90%, và không đánh dấu hoàn thành bonus. Chi phí các lượt thử được ghi $0.00 theo xác nhận sử dụng Free Tier.
+
+Nguồn, cách tái lập, manifest, benchmark, baseline và trạng thái các lượt agent được ghi trong [báo cáo bonus WDR 2024](../../starter/advanced/README.md).

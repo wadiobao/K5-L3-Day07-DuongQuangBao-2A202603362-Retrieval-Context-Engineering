@@ -1,0 +1,186 @@
+[
+  {
+    "pdf_page": 35,
+    "printed_page": 3,
+    "element": "Figure O.1",
+    "kind": "chart",
+    "region": "lower half of page, line chart",
+    "description": "The horizontal axis spans 1970–2022 and the vertical axis is middle-income-country GNI per capita as a share of US GNI per capita (percent). The overall middle-income series stays below about 10 percent. At the 2022 endpoint, the labeled country series are approximately 50 percent for Korea, Rep., 25 percent for Poland, and 15 percent for Chile."
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 4,
+    "element": "Table O.1",
+    "kind": "table",
+    "region": "bottom of page, four income-classification rows",
+    "description": "Columns are shares of global population, global GDP, people in global extreme poverty, and global carbon dioxide emissions, respectively. Low-income row: 8.9% of global population, 0.6% of global GDP, 36.5% of people in global extreme poverty, and 0.5% of global carbon dioxide emissions. Lower-middle-income row: 40.3% of global population, 8.3% of global GDP, 55.4% of people in global extreme poverty, and 15.7% of global carbon dioxide emissions. Upper-middle-income row: 35.1% of global population, 30.3% of global GDP, 7.1% of people in global extreme poverty, and 48.6% of global carbon dioxide emissions. High-income row: 15.7% of global population, 60.8% of global GDP, 1.0% of people in global extreme poverty, and 35.2% of global carbon dioxide emissions."
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 7,
+    "element": "Table O.2",
+    "kind": "table",
+    "region": "top third of page, income classification by investment/infusion/innovation",
+    "description": "Table O.2 priorities: low-income countries prioritize investment, while infusion and innovation have lower priority; lower-middle-income countries prioritize investment and infusion, while innovation has lower priority; upper-middle-income countries prioritize all three."
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 7,
+    "element": "Figure O.4",
+    "kind": "diagram",
+    "region": "lower half of page, two rising/falling curves",
+    "description": "The horizontal axis is proximity to the frontier and the vertical axis is relative contribution to growth. Capital contribution declines as economies approach the frontier; productivity contribution rises. Stages are 1i investment, 2i investment plus infusion, and 3i investment plus infusion plus innovation."
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 9,
+    "element": "Figure O.6",
+    "kind": "chart",
+    "region": "upper half, agreement image in panel a and subsidy chart in panel b",
+    "description": "Panel a shows a technology collaboration agreement between Nippon Electric and Samsung. Panel b plots adoption and innovation (R&D) subsidy rates from 1970 to 2020: adoption subsidies appear earlier, while innovation subsidies rise later. The vertical axis is the subsidy rate in percent."
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 12,
+    "element": "Figure O.8",
+    "kind": "diagram",
+    "region": "upper third of page, three side-by-side panels",
+    "description": "Panel a (Energy, Schumpeter): incumbents can collude. Panel b (Talent, Aghion and Howitt): entrants create and displace incumbents. Panel c (Enterprise, Akcigit and Kerr): both incumbents and entrants add value. Each panel depicts a technology frontier and labels economic progress."
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 17,
+    "element": "Figure O.10",
+    "kind": "diagram",
+    "region": "bottom half of page, two circular force diagrams linked by an arrow",
+    "description": "The left circle shows preservation as dominant and destruction as weak. The arrow points to a more balanced arrangement on the right, where creation, preservation, and destruction have more comparable roles."
+  },
+  {
+    "pdf_page": 59,
+    "printed_page": 27,
+    "element": "Table O.3",
+    "kind": "table",
+    "region": "center of page, three development stages by enterprise/talent/energy",
+    "description": "The upper-middle-income 3i column combines investment, infusion, and innovation. Its enterprise actions include deepening capital markets and expanding equity financing; strengthening antitrust regulation and competition agencies; and protecting intellectual property rights."
+  },
+  {
+    "pdf_page": 81,
+    "printed_page": 49,
+    "element": "Table S.1",
+    "kind": "table",
+    "region": "full page, first half of country indicator table",
+    "description": "India row: lower-middle-income; GNI per capita $2,540 (2023 US dollars); Economic Complexity Index 0.5; Technology Index 1.0. Vietnam row: lower-middle-income; GNI per capita $4,180; Economic Complexity Index 0.0; Technology Index 0.0. Malaysia row: upper-middle-income; GNI per capita $11,970; Economic Complexity Index 0.9; Technology Index 0.4."
+  },
+  {
+    "pdf_page": 82,
+    "printed_page": 50,
+    "element": "Table S.1 (continued)",
+    "kind": "table",
+    "region": "upper half of page, continuation of country indicator table",
+    "description": "Republic of Korea row: high-income; GNI per capita $35,490 (2023 US dollars); Economic Complexity Index 2.0; Technology Index 92.5."
+  },
+  {
+    "pdf_page": 86,
+    "printed_page": 54,
+    "element": "Table 2.1",
+    "kind": "table",
+    "region": "bottom third of page, stage-by-stage priority matrix",
+    "description": "Table 2.1 shows low-income countries prioritize investment, with infusion and innovation lower priority; lower-middle-income countries prioritize both investment and infusion, with innovation lower priority; upper-middle-income countries prioritize investment, infusion, and innovation."
+  },
+  {
+    "pdf_page": 88,
+    "printed_page": 56,
+    "element": "Figure 2.2",
+    "kind": "diagram",
+    "region": "bottom half of page, capital and productivity curves",
+    "description": "The diagram shows capital's relative contribution to growth declining and productivity's contribution increasing with proximity to the frontier. The stages are 1i investment, 2i investment plus infusion, and 3i investment plus infusion plus innovation."
+  },
+  {
+    "pdf_page": 92,
+    "printed_page": 60,
+    "element": "Figure 2.5",
+    "kind": "chart",
+    "region": "upper half, agreement image in panel a and subsidy chart in panel b",
+    "description": "Panel a shows a technology collaboration agreement between Nippon Electric and Samsung. Panel b plots adoption and innovation (R&D) subsidy rates from 1970 to 2020: adoption subsidies appear earlier, while innovation subsidies rise later. The vertical axis is the subsidy rate in percent."
+  },
+  {
+    "pdf_page": 105,
+    "printed_page": 73,
+    "element": "Figure 3.2",
+    "kind": "chart",
+    "region": "upper half, two stacked bar charts for 2010–2023",
+    "description": "The figure contrasts new helpful and harmful trade interventions in critical technologies per year. Harmful interventions rise sharply after 2019 and reach roughly 330 in 2023, while helpful interventions are much lower at roughly 15 in 2023. The bars distinguish semiconductor product codes 8541 and 8542."
+  },
+  {
+    "pdf_page": 115,
+    "printed_page": 83,
+    "element": "Figure P2.1",
+    "kind": "diagram",
+    "region": "upper half, two linked circular diagrams",
+    "description": "The left circle shows creation and destruction as weaker forces around dominant preservation. An arrow leads to a more balanced right circle, where creation, preservation, and destruction have more comparable roles."
+  },
+  {
+    "pdf_page": 135,
+    "printed_page": 103,
+    "element": "Table 4.1",
+    "kind": "table",
+    "region": "bottom third of page, productivity/consumer welfare/innovation/jobs rows",
+    "description": "In the productivity row, the pro is that mergers and acquisitions can lead to more efficiency; the con is that conglomerates can cross-subsidize unproductive firms and crowd out more productive competitors. In the innovation row, firms may gain market power by innovating and pushing the frontier, but fewer incentives to innovate and low firm entry are listed as cons."
+  },
+  {
+    "pdf_page": 171,
+    "printed_page": 139,
+    "element": "Figure 6.1",
+    "kind": "chart",
+    "region": "upper left, log-scale index chart",
+    "description": "The vertical axis is an investment price index relative to 1985 prices (log scale), and the horizontal axis runs from 1985 to 2020. The solar-photovoltaic series falls to roughly 2 by 2020, lower than the onshore-wind series at roughly 20–25; software remains much higher."
+  },
+  {
+    "pdf_page": 173,
+    "printed_page": 141,
+    "element": "Map 6.1",
+    "kind": "map",
+    "region": "upper half, global map with country-level markers",
+    "description": "The map shows the geographic distribution of online job postings related to low-carbon technologies. Its caption states that in 2022 one-third of these postings were in middle-income countries."
+  },
+  {
+    "pdf_page": 177,
+    "printed_page": 145,
+    "element": "Figure 6.4",
+    "kind": "chart",
+    "region": "full page, three panels for wind, solar, and electric vehicles",
+    "description": "The chart compares clean-energy adoption levels and growth rates for high-income and middle-income countries. In each panel, the middle-income adoption level is generally below the high-income level, while the caption reports adoption is growing more rapidly in middle-income countries."
+  },
+  {
+    "pdf_page": 182,
+    "printed_page": 150,
+    "element": "Map 6.2",
+    "kind": "map",
+    "region": "lower half, global electricity-transmission map with two regional insets",
+    "description": "The map displays electricity transmission networks in 2023. The two insets focus on regions with geographic disparities in network coverage; the caption identifies limited or outdated networks as barriers to renewable-energy entry."
+  },
+  {
+    "pdf_page": 186,
+    "printed_page": 154,
+    "element": "Map 6.3",
+    "kind": "map",
+    "region": "lower half, two side-by-side maps of China",
+    "description": "The maps compare low-carbon-technology jobs with fossil-fuel jobs in China. Low-carbon jobs are growing in manufacturing hubs on the southeast coast, while fossil-fuel jobs are concentrated near coal mines."
+  },
+  {
+    "pdf_page": 195,
+    "printed_page": 163,
+    "element": "Figure 7.2",
+    "kind": "diagram",
+    "region": "lower left, upward flow diagram",
+    "description": "The diagram places contestability above three inputs—institutions, incentives, and interventions—and connects contestability to disciplining incumbency."
+  },
+  {
+    "pdf_page": 265,
+    "printed_page": 233,
+    "element": "Figure 9.10",
+    "kind": "chart",
+    "region": "upper left, multi-series line chart",
+    "description": "The vertical axis measures CO2 emissions in million tons per billion 2015 US dollars of GDP, and the horizontal axis spans 1980–2022. The World series trends downward overall, from about 0.7 in 1980 to about 0.4 in 2022. China's series falls from approximately 3.4 in 1980 to about 0.5 in 2022."
+  }
+]

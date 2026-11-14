@@ -43,3 +43,5 @@ Thử các cấu hình trên dev, lưu kết quả và chốt pipeline. Chạy p
 ## 4. Nộp
 
 Nộp code và cách chạy; nguồn tài liệu, thống kê và cấu hình index; benchmark dev/test, đáp án và evidence; kết quả từng câu, trace, nhãn, metrics theo nhóm; phân tích lỗi, chi phí và giới hạn. Không nộp tài liệu hoặc dữ liệu khi chưa có quyền chia sẻ; thay bằng nguồn và cách truy cập hợp lệ.
+
+Phần triển khai và trạng thái bonus của báo cáo WDR 2024 được ghi tại [starter/advanced/README.md](starter/advanced/README.md).

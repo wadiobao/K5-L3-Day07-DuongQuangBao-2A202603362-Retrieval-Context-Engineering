@@ -1,6 +1,8 @@
 """Gemini Embedding 2 and function-calling controller adapters."""
 import json
+import math
 import os
+import time
 from typing import Any
 
 
@@ -88,6 +90,7 @@ class GeminiController:
         api_key: str | None = None,
         model: str | None = None,
         client: Any = None,
+        min_request_interval_seconds: float = 0.0,
     ) -> None:
         try:
             from dotenv import load_dotenv
@@ -95,6 +98,8 @@ class GeminiController:
         except ImportError:
             pass
         self.model = model or os.getenv('GEMINI_AGENT_MODEL', 'gemini-2.5-flash-lite')
+        if not math.isfinite(min_request_interval_seconds) or min_request_interval_seconds < 0:
+            raise ValueError('min_request_interval_seconds phải là số hữu hạn không âm')
         if client is None:
             key = api_key or os.getenv('GEMINI_API_KEY')
             if not key:
@@ -109,6 +114,8 @@ class GeminiController:
                 http_options=types.HttpOptions(api_version='v1beta'),
             )
         self.client = client
+        self.min_request_interval_seconds = min_request_interval_seconds
+        self._last_request_at: float | None = None
         self.usage = {'calls': 0, 'prompt_tokens': 0, 'candidate_tokens': 0, 'total_tokens': 0}
 
     @staticmethod
@@ -163,6 +170,13 @@ class GeminiController:
                 )
             ),
         )
+        now = time.monotonic()
+        if self._last_request_at is not None:
+            delay = self.min_request_interval_seconds - (now - self._last_request_at)
+            if delay > 0:
+                time.sleep(delay)
+                now = time.monotonic()
+        self._last_request_at = now
         self.usage['calls'] += 1
         response = self.client.models.generate_content(
             model=self.model,

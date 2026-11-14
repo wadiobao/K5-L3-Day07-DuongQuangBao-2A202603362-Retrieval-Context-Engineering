@@ -60,8 +60,18 @@ def validate(chunks, questions):
                 raise ValueError(f"question {q['id']}: gold không nằm trọn trong chunk đúng nguồn/trang")
 
 
+def _normalize_evidence(text):
+    text = unicodedata.normalize('NFC', text).replace('\u00ad', '').replace('\u00a0', ' ')
+    return ' '.join(text.split())
+
+
 def hit(chunk, gold):
-    return any(chunk['source_id'] == g['source_id'] and chunk['page'] == g['page'] and g['evidence'] in chunk['text'] for g in gold)
+    return any(
+        chunk['source_id'] == g['source_id']
+        and chunk['page'] == g['page']
+        and _normalize_evidence(g['evidence']) in _normalize_evidence(chunk['text'])
+        for g in gold
+    )
 
 
 class TfidfIndex:

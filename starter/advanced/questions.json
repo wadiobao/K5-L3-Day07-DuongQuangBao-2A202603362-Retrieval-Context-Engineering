@@ -1,0 +1,498 @@
+[
+  {
+    "id": "T01",
+    "split": "test",
+    "primary_group": "table",
+    "question": "In Table O.1, what share of global GDP is attributed to lower-middle-income countries?",
+    "answerable": true,
+    "expected_answer": "8.3%.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 36, "evidence": "Lower-middle-income row: 40.3% of global population, 8.3% of global GDP"}],
+    "verification": "Read the lower-middle-income row and global-GDP column in the original table."
+  },
+  {
+    "id": "T02",
+    "split": "test",
+    "primary_group": "table",
+    "question": "According to Table O.2, which policy areas are higher priority for low-income countries, and which are lower priority?",
+    "answerable": true,
+    "expected_answer": "Investment is higher priority; infusion and innovation are lower priority.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 39, "evidence": "low-income countries prioritize investment, while infusion and innovation have lower priority"}],
+    "verification": "Check the low-income row across the three policy columns."
+  },
+  {
+    "id": "T03",
+    "split": "test",
+    "primary_group": "table",
+    "question": "Name the three enterprise actions listed for upper-middle-income countries in Table O.3.",
+    "answerable": true,
+    "expected_answer": "Deepen capital markets and expand equity financing; strengthen antitrust regulation and competition agencies; protect intellectual property rights.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 59, "evidence": "The upper-middle-income 3i column combines investment, infusion, and innovation. Its enterprise actions include deepening capital markets and expanding equity financing; strengthening antitrust regulation and competition agencies; and protecting intellectual property rights."}],
+    "verification": "Read the upper-middle-income column and Enterprise row in the original table."
+  },
+  {
+    "id": "T04",
+    "split": "test",
+    "primary_group": "table",
+    "question": "For Viet Nam, what income group and Technology Index does Table S.1 report?",
+    "answerable": true,
+    "expected_answer": "Lower-middle-income, with a Technology Index of 0.0.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 81, "evidence": "Vietnam row: lower-middle-income; GNI per capita $4,180; Economic Complexity Index 0.0; Technology Index 0.0."}],
+    "verification": "Read the Viet Nam row and its income-group and Technology Index columns."
+  },
+  {
+    "id": "T05",
+    "split": "test",
+    "primary_group": "table",
+    "question": "In Table 2.1, how is innovation prioritized for upper-middle-income countries?",
+    "answerable": true,
+    "expected_answer": "Innovation is a higher priority, alongside investment and infusion.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 86, "evidence": "upper-middle-income countries prioritize investment, infusion, and innovation."}],
+    "verification": "Check the upper-middle-income row and Innovation column."
+  },
+  {
+    "id": "T06",
+    "split": "test",
+    "primary_group": "table",
+    "question": "Give one productivity-related pro and one con of market power from Table 4.1.",
+    "answerable": true,
+    "expected_answer": "Pro: mergers and acquisitions can improve efficiency. Con: conglomerates can cross-subsidize unproductive firms and crowd out more productive competitors.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 135, "evidence": "In the productivity row, the pro is that mergers and acquisitions can lead to more efficiency; the con is that conglomerates can cross-subsidize unproductive firms and crowd out more productive competitors."}],
+    "verification": "Compare the Productivity row's Pros and Cons cells."
+  },
+  {
+    "id": "I01",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "In Figure O.4, how do capital and productivity contributions change as a country moves closer to the frontier, and what are the 1i, 2i, and 3i stages?",
+    "answerable": true,
+    "expected_answer": "Capital's relative contribution declines and productivity's rises. The stages are investment; investment plus infusion; and investment plus infusion plus innovation.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 39, "evidence": "The horizontal axis is proximity to the frontier and the vertical axis is relative contribution to growth. Capital contribution declines as economies approach the frontier; productivity contribution rises."}],
+    "verification": "Inspect the two curves, axes, and stage labels in Figure O.4."
+  },
+  {
+    "id": "I02",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "What relationship between entrants and incumbents does Figure O.8, panel b (Talent), depict?",
+    "answerable": true,
+    "expected_answer": "In the Aghion and Howitt view, entrants create and displace incumbents.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 44, "evidence": "Panel b (Talent, Aghion and Howitt): entrants create and displace incumbents."}],
+    "verification": "Read the panel b labels and its explanatory caption."
+  },
+  {
+    "id": "I03",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "What imbalance and desired change are shown by the left and right sides of Figure O.10?",
+    "answerable": true,
+    "expected_answer": "The left side shows preservation dominating while destruction is weak; the right side shows creation, preservation, and destruction in a more balanced arrangement.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 49, "evidence": "The left circle shows preservation as dominant and destruction as weak. The arrow points to a more balanced arrangement on the right, where creation, preservation, and destruction have more comparable roles."}],
+    "verification": "Compare the relative sizes of the circles before and after the arrow."
+  },
+  {
+    "id": "I04",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "According to Figure 2.2, what happens to the relative contributions of capital and productivity as economies approach the frontier?",
+    "answerable": true,
+    "expected_answer": "Capital's contribution falls while productivity's contribution rises.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 88, "evidence": "The diagram shows capital's relative contribution to growth declining and productivity's contribution increasing with proximity to the frontier."}],
+    "verification": "Inspect the curve directions and the horizontal axis in Figure 2.2."
+  },
+  {
+    "id": "I05",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "Which three inputs feed into contestability in Figure 7.2, and what does contestability support?",
+    "answerable": true,
+    "expected_answer": "Institutions, incentives, and interventions feed into contestability, which supports disciplining incumbency.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 195, "evidence": "The diagram places contestability above three inputs—institutions, incentives, and interventions—and connects contestability to disciplining incumbency."}],
+    "verification": "Follow the arrows in Figure 7.2 from the three lower boxes upward."
+  },
+  {
+    "id": "C01",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "In Figure O.1, what is the approximate 2022 US-GNI-per-capita share for Korea, Rep., Poland, and Chile, and what is the vertical-axis unit?",
+    "answerable": true,
+    "expected_answer": "Approximately 50% for Korea, Rep., 25% for Poland, and 15% for Chile; the vertical axis is share of US GNI per capita in percent.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 35, "evidence": "At the 2022 endpoint, the labeled country series are approximately 50 percent for Korea, Rep., 25 percent for Poland, and 15 percent for Chile."}],
+    "verification": "Read the 2022 line endpoints and y-axis label in the original chart."
+  },
+  {
+    "id": "C02",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "How do new harmful versus helpful interventions in critical technologies compare in 2023 in Figure 3.2, and when does the harmful series begin its sharp rise?",
+    "answerable": true,
+    "expected_answer": "Harmful interventions reach roughly 330 in 2023, compared with about 15 helpful interventions; the harmful series rises sharply after 2019.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 105, "evidence": "Harmful interventions rise sharply after 2019 and reach roughly 330 in 2023, while helpful interventions are much lower at roughly 15 in 2023."}],
+    "verification": "Compare the 2023 stacked bars and the series before and after 2019."
+  },
+  {
+    "id": "C03",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "By about 2020, which has the lower investment price index in Figure 6.1: solar photovoltaics or onshore wind? Include the approximate values and explain the y-axis reference.",
+    "answerable": true,
+    "expected_answer": "Solar photovoltaics is lower, at about 2 versus about 20–25 for onshore wind; the index is relative to 1985 prices on a log scale.",
+    "gold": [    {"source_id": "world-bank-wdr-2024", "page": 171, "evidence": "The vertical axis is an investment price index relative to 1985 prices (log scale), and the horizontal axis runs from 1985 to 2020. The solar-photovoltaic series falls to roughly 2 by 2020, lower than the onshore-wind series at roughly 20–25; software remains much higher."}],
+    "verification": "Read the chart's logarithmic y-axis, legend, and endpoints around 2020."
+  },
+  {
+    "id": "C04",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "What two-part comparison does Figure 6.4 make between middle-income and high-income countries for clean-energy adoption?",
+    "answerable": true,
+    "expected_answer": "Adoption levels in middle-income countries are generally lower, but their adoption rates are growing more rapidly.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 177, "evidence": "The chart compares clean-energy adoption levels and growth rates for high-income and middle-income countries. In each panel, the middle-income adoption level is generally below the high-income level, while the caption reports adoption is growing more rapidly in middle-income countries."}],
+    "verification": "Check the caption and compare the level and growth-rate series across the three panels."
+  },
+  {
+    "id": "C05",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "What overall direction does the World series take in Figure 9.10 from 1980 to 2022, and what does the vertical axis measure?",
+    "answerable": true,
+    "expected_answer": "It declines overall, from about 0.7 to about 0.4 million tons of CO2 per billion 2015 US dollars of GDP.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 265, "evidence": "The vertical axis measures CO2 emissions in million tons per billion 2015 US dollars of GDP, and the horizontal axis spans 1980–2022. The World series trends downward overall, from about 0.7 in 1980 to about 0.4 in 2022."}],
+    "verification": "Read the World line, its endpoints, and the units on the vertical axis."
+  },
+  {
+    "id": "M01",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "question": "Use Figure O.1 and Table O.1 together: what is the approximate 2022 income-per-capita share for Poland, and what share of global GDP belongs to the upper-middle-income group?",
+    "answerable": true,
+    "expected_answer": "Poland is about 25% of US GNI per capita in 2022; upper-middle-income countries account for 30.3% of global GDP.",
+    "gold": [
+      {"source_id": "world-bank-wdr-2024", "page": 35, "evidence": "At the 2022 endpoint, the labeled country series are approximately 50 percent for Korea, Rep., 25 percent for Poland, and 15 percent for Chile."},
+      {"source_id": "world-bank-wdr-2024", "page": 36, "evidence": "Upper-middle-income row: 35.1% of global population, 30.3% of global GDP, 7.1% of people in global extreme poverty, and 48.6% of global carbon dioxide emissions."}
+    ],
+    "verification": "Read Poland's 2022 endpoint in Figure O.1 and the upper-middle-income GDP column in Table O.1."
+  },
+  {
+    "id": "M02",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "question": "Combine Tables O.2 and O.3: for lower-middle-income countries, which two policy areas are higher priority, and name one enterprise action the report recommends for that stage.",
+    "answerable": true,
+    "expected_answer": "Investment and infusion are higher priority; enterprise actions include diffusing global technologies with fluid factor and product markets, disciplining market leaders through globally contestable markets, or rewarding value-adding firms.",
+    "gold": [
+      {"source_id": "world-bank-wdr-2024", "page": 39, "evidence": "lower-middle-income countries prioritize investment and infusion"},
+      {"source_id": "world-bank-wdr-2024", "page": 59, "evidence": "Its enterprise actions include"}
+    ],
+    "verification": "Compare the lower-middle-income row in Table O.2 with the same stage's Enterprise column in Table O.3."
+  },
+  {
+    "id": "M03",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "question": "Using the India and Republic of Korea rows in Table S.1, compare their 2023 GNI per capita and Technology Index values.",
+    "answerable": true,
+    "expected_answer": "India: $2,540 and Technology Index 1.0. Republic of Korea: $35,490 and Technology Index 92.5.",
+    "gold": [
+      {"source_id": "world-bank-wdr-2024", "page": 81, "evidence": "India row: lower-middle-income; GNI per capita $2,540"},
+      {"source_id": "world-bank-wdr-2024", "page": 82, "evidence": "Republic of Korea row: high-income; GNI per capita $35,490 (2023 US dollars); Economic Complexity Index 2.0; Technology Index 92.5."}
+    ],
+    "verification": "Read India's row on the first table page and the Republic of Korea row on the continuation."
+  },
+  {
+    "id": "M04",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "question": "Combine the 2021 statistics on PDF page 176 with Figure 6.4 on page 177: compare wind and solar generation shares in middle-income versus high-income countries, then state the adoption-rate pattern shown in the figure.",
+    "answerable": true,
+    "expected_answer": "Middle-income countries had about half the high-income share: wind 4.1% versus 9.5%, solar 2.7% versus 5.3%. Figure 6.4 says adoption is growing faster in middle-income countries even though their adoption level is lower.",
+    "gold": [
+      {"source_id": "world-bank-wdr-2024", "page": 176, "evidence": "4.1 percent versus 9.5 percent for wind and 2.7 percent versus 5.3 percent for solar"},
+      {"source_id": "world-bank-wdr-2024", "page": 177, "evidence": "In each panel, the middle-income adoption level is generally below the high-income level, while the caption reports adoption is growing more rapidly in middle-income countries."}
+    ],
+    "verification": "Check the 2021 prose values on page 176 and the title/three panels of Figure 6.4 on page 177."
+  },
+  {
+    "id": "X01",
+    "split": "test",
+    "primary_group": "text",
+    "question": "According to the Overview, how many middle-income economies reached high-income status since 1990, and what was their combined population relative to Pakistan?",
+    "answerable": true,
+    "expected_answer": "Thirty-four economies; their combined population was less than 250 million, described as the population of Pakistan.",
+    "gold": [
+      {"source_id": "world-bank-wdr-2024", "page": 33, "evidence": "34 middle-income economies that"},
+      {"source_id": "world-bank-wdr-2024", "page": 33, "evidence": "is less than \n250"}
+    ],
+    "verification": "Read the Overview's paragraph on transitions since 1990."
+  },
+  {
+    "id": "X02",
+    "split": "test",
+    "primary_group": "text",
+    "question": "In the Foreword, what shares of the world's population, economic output, and carbon emissions are attributed to middle-income countries?",
+    "answerable": true,
+    "expected_answer": "Three out of every four people; 40% of global economic output; nearly two-thirds of global carbon emissions.",
+    "gold": [
+      {"source_id": "world-bank-wdr-2024", "page": 18, "evidence": "Middle-income countries are home to three \nout of every four people"},
+      {"source_id": "world-bank-wdr-2024", "page": 18, "evidence": "40 percent of the world’s total economic output"},
+      {"source_id": "world-bank-wdr-2024", "page": 18, "evidence": "thirds of global carbon emissions"}
+    ],
+    "verification": "Read the Foreword paragraph beginning 'This has implications for the whole world.'"
+  },
+  {
+    "id": "X03",
+    "split": "test",
+    "primary_group": "text",
+    "question": "At current trends in the Foreword, how many years would China, Indonesia, and India take to reach one-quarter of US income per capita?",
+    "answerable": true,
+    "expected_answer": "China: more than 10 years; Indonesia: nearly 70 years; India: 75 years.",
+    "gold": [    {"source_id": "world-bank-wdr-2024", "page": 18, "evidence": "it will take China more than 10 years just to reach one-quarter of US income per \ncapita, Indonesia nearly 70 years, and India 75 years."}],
+    "verification": "Read the final projection sentence in the Foreword."
+  },
+  {
+    "id": "X04",
+    "split": "test",
+    "primary_group": "text",
+    "question": "According to the Overview, in which three resources must middle-income countries become more efficient?",
+    "answerable": true,
+    "expected_answer": "Capital, labor, and energy.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 34, "evidence": "they will have to become"}],
+    "verification": "Read the Overview's sentence describing the imperative for middle-income economies."
+  },
+  {
+    "id": "U01",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "What exact GDP per capita does the report forecast for Viet Nam in 2050?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report gives a 7% GDP-per-capita growth goal through the 2020s and a high-income-status goal by 2045 for Viet Nam, but no exact 2050 GDP-per-capita forecast."
+  },
+  {
+    "id": "U02",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "What exact percentage of Brazil's electricity will come from renewables in 2035 according to this report?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report discusses Brazil in other contexts but does not state a country-specific 2035 renewable-electricity share."
+  },
+  {
+    "id": "U03",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "What monthly salary does the report assign to a named female technology worker in Viet Nam?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report contains no such named worker or monthly salary; its country and gender indicators are not individual payroll records."
+  },
+  {
+    "id": "U04",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "What is the report's exact forecast for Viet Nam's carbon emissions per unit of GDP in 2040?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report includes historical/global emissions-intensity charts and country comparisons, but no exact Viet Nam-specific 2040 forecast."
+  },
+  {
+    "id": "U05",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "Which specific company in India does the report predict will be the first to implement the 3i strategy by 2040?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The 3i strategy is a policy framework for countries; the report does not predict a first company in India or give that 2040 company-level forecast."
+  },
+  {
+    "id": "U06",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "In which exact year does the report predict Mexico will become a high-income economy?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report says Brazil and Mexico may fall further behind the United States by 2100, but does not give Mexico a specific year for becoming high-income."
+  },
+  {
+    "id": "DV-T01",
+    "split": "dev",
+    "primary_group": "table",
+    "question": "What share of global GDP is attributed to low-income countries in Table O.1?",
+    "answerable": true,
+    "expected_answer": "0.6%.",
+    "gold": [        {"source_id": "world-bank-wdr-2024", "page": 36, "evidence": "Low-income row: 8.9% of global population, 0.6% of global GDP, 36.5% of people in global extreme poverty, and 0.5% of global carbon dioxide emissions."}],
+    "verification": "Read the low-income row and global-GDP column."
+  },
+  {
+    "id": "DV-T02",
+    "split": "dev",
+    "primary_group": "table",
+    "question": "In Table 4.1, what is the consumer-welfare pro of market power?",
+    "answerable": true,
+    "expected_answer": "More efficient structures can lead to lower costs and therefore lower prices in the market.",
+    "gold": [    {"source_id": "world-bank-wdr-2024", "page": 135, "evidence": "More efficient structures can lead to \nlower costs and therefore lower prices."}],
+    "verification": "Read the Consumer welfare row in the Pros column."
+  },
+  {
+    "id": "DV-T03",
+    "split": "dev",
+    "primary_group": "table",
+    "question": "What GNI per capita and Technology Index does Table S.1 list for Malaysia?",
+    "answerable": true,
+    "expected_answer": "$11,970 and 0.4, respectively.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 81, "evidence": "Malaysia row: upper-middle-income; GNI per capita $11,970; Economic Complexity Index 0.9; Technology Index 0.4."}],
+    "verification": "Read the Malaysia row and the GNI-per-capita and Technology Index columns."
+  },
+  {
+    "id": "DV-I01",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "question": "In Figure O.8, panel a (Energy), what role can incumbents play in Schumpeter's view?",
+    "answerable": true,
+    "expected_answer": "Incumbents can collude.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 44, "evidence": "Panel a (Energy, Schumpeter): incumbents can collude."}],
+    "verification": "Inspect the panel-a labels and text below the diagram."
+  },
+  {
+    "id": "DV-I02",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "question": "In the left-hand circle of Figure O.10, which force is visually dominant and which is weak?",
+    "answerable": true,
+    "expected_answer": "Preservation is dominant and destruction is weak.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 49, "evidence": "The left circle shows preservation as dominant and destruction as weak."}],
+    "verification": "Compare the relative circle sizes in the left-hand diagram."
+  },
+  {
+    "id": "DV-I03",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "question": "What outcome sits above the three inputs in Figure 7.2?",
+    "answerable": true,
+    "expected_answer": "Contestability.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 195, "evidence": "The diagram places contestability above three inputs"}],
+    "verification": "Read the center box above Institutions, Incentives, and Interventions."
+  },
+  {
+    "id": "DV-C01",
+    "split": "dev",
+    "primary_group": "chart",
+    "question": "Approximately how many new helpful trade interventions in critical technologies are shown for 2023 in Figure 3.2?",
+    "answerable": true,
+    "expected_answer": "About 15.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 105, "evidence": "helpful interventions are much lower at roughly 15 in 2023."}],
+    "verification": "Read the 2023 stacked bar in panel a."
+  },
+  {
+    "id": "DV-C02",
+    "split": "dev",
+    "primary_group": "chart",
+    "question": "In Figure 9.10, what happens to China's CO2 emissions per unit of GDP between 1980 and 2022?",
+    "answerable": true,
+    "expected_answer": "It falls steeply, from about 3.4 to about 0.5 million tons of CO2 per billion 2015 US dollars of GDP.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 265, "evidence": "China's series falls from approximately 3.4 in 1980 to about 0.5 in 2022."}],
+    "verification": "Read China's line endpoints and the chart's vertical-axis units."
+  },
+  {
+    "id": "DV-C03",
+    "split": "dev",
+    "primary_group": "chart",
+    "question": "Around 2020 in Figure 6.1, which remains much higher: the software price index or the solar-photovoltaic index?",
+    "answerable": true,
+    "expected_answer": "The software price index remains much higher; solar photovoltaics falls to roughly 2.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 171, "evidence": "The solar-photovoltaic series falls to roughly 2 by 2020, lower than the onshore-wind series at roughly 20–25; software remains much higher."}],
+    "verification": "Compare the Software and Solar (photovoltaic) lines near 2020."
+  },
+  {
+    "id": "DV-M01",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "question": "Use the Malaysia row in Table S.1 to identify its income group. What percentage of global carbon dioxide emissions does Table O.1 report for that group?",
+    "answerable": true,
+    "expected_answer": "Malaysia is upper-middle-income; that income group accounts for 48.6% of global CO2 emissions.",
+    "gold": [
+      {"source_id": "world-bank-wdr-2024", "page": 81, "evidence": "Malaysia row: upper-middle-income"},
+      {"source_id": "world-bank-wdr-2024", "page": 36, "evidence": "Upper-middle-income row: 35.1% of global population, 30.3% of global GDP, 7.1% of people in global extreme poverty, and 48.6% of global carbon dioxide emissions."}
+    ],
+    "verification": "Classify Malaysia from Table S.1, then read the same income-group row's CO2 column in Table O.1."
+  },
+  {
+    "id": "DV-M02",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "question": "Combine Tables O.2 and O.3 for low-income countries: what is the priority policy area, and what enterprise investment-climate action is listed?",
+    "answerable": true,
+    "expected_answer": "Investment is the higher priority; the enterprise action is to improve the investment climate to increase domestic and foreign investment.",
+    "gold": [
+      {"source_id": "world-bank-wdr-2024", "page": 39, "evidence": "low-income countries prioritize investment"},
+      {"source_id": "world-bank-wdr-2024", "page": 59, "evidence": "Improve the \ninvestment climate \nto increase \ndomestic and \nforeign investment."}
+    ],
+    "verification": "Compare the low-income priority row in Table O.2 with the low-income Enterprise cell in Table O.3."
+  },
+  {
+    "id": "DV-X01",
+    "split": "dev",
+    "primary_group": "text",
+    "question": "What target growth rate for GDP per capita does the Overview report for Viet Nam's 2021–2030 strategy?",
+    "answerable": true,
+    "expected_answer": "7% per year through the decade.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 34, "evidence": "GDP per capita growth of 7 percent \nthrough this decade"}],
+    "verification": "Read the Overview's Viet Nam country example."
+  },
+  {
+    "id": "DV-X02",
+    "split": "dev",
+    "primary_group": "text",
+    "question": "As economies develop, what does the report say happens to the returns from capital accumulation?",
+    "answerable": true,
+    "expected_answer": "They diminish; capital accumulation alone is increasingly insufficient as the marginal productivity of capital declines.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 87, "evidence": "capital accumulation brings diminishing returns"}],
+    "verification": "Check the discussion and Figure 2.1 on the development-stage pattern."
+  },
+  {
+    "id": "DV-X03",
+    "split": "dev",
+    "primary_group": "text",
+    "question": "What two ingredients does the Overview say lower-middle-income countries add to investment-driven strategies?",
+    "answerable": true,
+    "expected_answer": "They add the infusion of modern technologies and successful business processes from around the world into their national economies.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 33, "evidence": "measures to infuse mod-\nern technologies and successful business processes \nfrom around the world"}],
+    "verification": "Read the Overview's description of the 2i transition."
+  },
+  {
+    "id": "DV-X04",
+    "split": "dev",
+    "primary_group": "text",
+    "question": "According to the report, what share of STEM graduates are in middle-income countries?",
+    "answerable": true,
+    "expected_answer": "Three-quarters.",
+    "gold": [{"source_id": "world-bank-wdr-2024", "page": 90, "evidence": "three-quarters of STEM graduates \nare now in middle-income countries"}],
+    "verification": "Verify the sentence in the discussion of skilled labor and technology infusion."
+  },
+  {
+    "id": "DV-U01",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "question": "What exact GDP per capita does the report project for Brazil in 2040?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report does not provide an exact Brazil-specific GDP-per-capita forecast for 2040."
+  },
+  {
+    "id": "DV-U02",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "question": "In which month and year does the report say India will leave the middle-income group?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report gives no exact month or year for India's transition out of middle-income status."
+  },
+  {
+    "id": "DV-U03",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "question": "How many electric vehicles does the report forecast for Viet Nam in 2035?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report charts historical regional clean-energy adoption but contains no exact 2035 Viet Nam EV forecast."
+  }
+]
