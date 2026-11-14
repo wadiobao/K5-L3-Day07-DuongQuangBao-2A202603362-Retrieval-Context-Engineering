@@ -36,6 +36,19 @@ def validate(chunks, questions):
         ids.add(q['id'])
         if q.get('split') not in ('dev', 'test') or not isinstance(q.get('question'), str) or not q['question'].strip():
             raise ValueError(f"question {q['id']}: split hoặc question không hợp lệ")
+        if q.get('filter') is not None and not isinstance(q['filter'], dict):
+            raise ValueError(f"question {q['id']}: filter phải là object")
+        answerable = q.get('answerable', True)
+        if type(answerable) is not bool:
+            raise ValueError(f"question {q['id']}: answerable phải là boolean")
+        if not answerable:
+            if q.get('expected_behavior') != 'search_and_abstain':
+                raise ValueError(f"question {q['id']}: expected_behavior phải là search_and_abstain")
+            if not isinstance(q.get('absence_reason'), str) or not q['absence_reason'].strip():
+                raise ValueError(f"question {q['id']}: absence_reason phải là chuỗi không rỗng")
+            if q.get('gold') not in (None, []):
+                raise ValueError(f"question {q['id']}: câu thiếu evidence không được có gold")
+            continue
         if not isinstance(q.get('expected_answer'), str) or not q['expected_answer'].strip():
             raise ValueError(f"question {q['id']}: expected_answer phải là chuỗi không rỗng")
         if not isinstance(q.get('gold'), list) or not q['gold']:
@@ -64,10 +77,14 @@ class TfidfIndex:
         norm = math.sqrt(sum(value * value for value in vector.values())) or 1
         return {term: value / norm for term, value in vector.items()}
 
-    def search(self, question, top_k=3):
+    def search(self, question, top_k=3, filters=None):
+        if top_k <= 0:
+            raise ValueError('top_k phải lớn hơn 0')
         query = self._vector(Counter(tokenize(question)))
         results = []
         for chunk, vector in zip(self.chunks, self.vectors):
+            if filters and any(chunk['metadata'].get(key) != value for key, value in filters.items()):
+                continue
             score = sum(value * vector.get(term, 0) for term, value in query.items())
             if score > 0:
                 results.append({**chunk, 'score': score, 'strategy': 'tfidf'})
@@ -87,21 +104,24 @@ def pack_context(results, budget=800):
     return '\n\n'.join(blocks), ids
 
 
-def evaluate(index, questions, budget=800):
+def evaluate(index, questions, budget=6000):
     traces = []
     for q in questions:
         start = time.perf_counter()
-        results = index.search(q['question'], top_k=3)
+        results = index.search(q['question'], top_k=3, filters=q.get('filter'))
         context, ids = pack_context(results, budget)
         elapsed_ms = (time.perf_counter() - start) * 1000
-        marked = [{**c, 'hit': hit(c, q['gold'])} for c in results]
+        answerable = q.get('answerable', True)
+        gold = q.get('gold', []) if answerable else []
+        marked = [{**c, 'hit': hit(c, gold) if answerable else None} for c in results]
         traces.append({'query_id': q['id'], 'split': q['split'], 'question': q['question'],
                        'strategy': 'tfidf', 'top_k': 3, 'budget_chars': budget,
-                       'gold': q['gold'], 'results': marked, 'context': context, 'context_ids': ids,
+                       'answerable': answerable, 'gold': gold,
+                       'results': marked, 'context': context, 'context_ids': ids,
                        'context_chars': len(context), 'elapsed_ms': elapsed_ms,
-                       'hit1': bool(marked and marked[0]['hit']),
-                       'hit3': any(c['hit'] for c in marked),
-                       'context_hit': any(c['hit'] and c['id'] in ids for c in marked)})
+                       'hit1': bool(marked and marked[0]['hit']) if answerable else None,
+                       'hit3': any(c['hit'] for c in marked) if answerable else None,
+                       'context_hit': any(c['hit'] and c['id'] in ids for c in marked) if answerable else None})
     return traces
 
 
@@ -110,8 +130,11 @@ def main():
     parser.add_argument('--chunks', required=True, type=Path)
     parser.add_argument('--questions', required=True, type=Path)
     parser.add_argument('--split', required=True, choices=('dev', 'test'))
+    parser.add_argument('--budget', type=int, default=6000, help='context budget tính bằng ký tự')
     parser.add_argument('--output', required=True, type=Path, help='Thư mục output; file cùng tên sẽ bị ghi đè')
     args = parser.parse_args()
+    if args.budget <= 0:
+        raise ValueError('budget phải lớn hơn 0')
     chunks = json.loads(args.chunks.read_text(encoding='utf-8'))
     questions = json.loads(args.questions.read_text(encoding='utf-8'))
     # Do not inspect held-out test evidence during dev work.
@@ -120,11 +143,15 @@ def main():
     started = time.perf_counter()
     index = TfidfIndex(chunks)
     index_seconds = time.perf_counter() - started
-    traces = evaluate(index, selected)
-    summary = {'strategy': 'tfidf', 'split': args.split, 'n': len(traces),
-               'hit1': sum(t['hit1'] for t in traces), 'hit3': sum(t['hit3'] for t in traces),
-               'context_hit': sum(t['context_hit'] for t in traces),
+    traces = evaluate(index, selected, budget=args.budget)
+    answerable_traces = [trace for trace in traces if trace['answerable']]
+    summary = {'strategy': 'tfidf', 'split': args.split, 'n': len(answerable_traces),
+               'total_n': len(traces), 'unanswerable_n': len(traces) - len(answerable_traces),
+               'hit1': sum(t['hit1'] for t in answerable_traces),
+               'hit3': sum(t['hit3'] for t in answerable_traces),
+               'context_hit': sum(t['context_hit'] for t in answerable_traces),
                'avg_context_chars': statistics.mean(t['context_chars'] for t in traces),
+               'context_budget_chars': args.budget,
                'median_ms': statistics.median(t['elapsed_ms'] for t in traces),
                'index_seconds': index_seconds, 'service_cost_usd': 0}
     args.output.mkdir(parents=True, exist_ok=True)

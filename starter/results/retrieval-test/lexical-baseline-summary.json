@@ -1,0 +1,30 @@
+{
+  "method": "lexical-baseline",
+  "split": "test",
+  "answerable_n": 5,
+  "total_n": 7,
+  "Hit@1": {
+    "n": 2,
+    "N": 5,
+    "rate": 0.4
+  },
+  "Evidence_Hit@3": {
+    "n": 4,
+    "N": 5,
+    "rate": 0.8
+  },
+  "Context_Evidence_Rate": {
+    "n": 4,
+    "N": 5,
+    "rate": 0.8
+  },
+  "returned_k": 3,
+  "candidate_k": null,
+  "context_budget_chars": 6000,
+  "median_ms": 0.30199399998309673,
+  "query_embedding_model": null,
+  "query_embedding_dimensions": null,
+  "query_embedding_requests": 0,
+  "embedding_tokens_reported": null,
+  "configuration_locked_on_dev": false
+}

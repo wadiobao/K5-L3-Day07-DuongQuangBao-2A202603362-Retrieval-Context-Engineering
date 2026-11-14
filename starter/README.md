@@ -56,6 +56,55 @@ python3 starter/agent_metrics.py --cases <cases.json> --traces <traces.json> --r
 
 Thay đường dẫn trong `< >`. Script tổng hợp nhãn bạn đã chấm, không tự đánh giá nội dung. Mẫu số bằng 0 nghĩa là không áp dụng. Lỗi kết nối được báo riêng, không tính vào chất lượng; giữ trace và nhãn để đối chiếu.
 
+## 5. Chạy agent thật
+
+Từ thư mục gốc repo, cần Python 3.11+, dependencies, API key Gemini và một database Day 6 đã có index Gemini Embedding 2 (768 chiều), strategy C:
+
+```bash
+python3 -m pip install -r starter/requirements.txt
+if [ ! -f starter/.env ]; then cp starter/.env.example starter/.env; fi
+```
+
+Trong `starter/.env`, cấu hình `GEMINI_API_KEY`, `DATABASE_URL`, `EMBEDDING_MODEL=gemini-embedding-2`, `EMBEDDING_DIMENSIONS=768`, `DAY6_STRATEGY=C` và model agent. Không chia sẻ hoặc commit `.env`. Với database Day 6 trong clone của bài này, có thể khởi động container hiện có bằng:
+
+```bash
+docker compose -p day6_student_starter \
+  -f K5-L3-Day06-DuongQuangBao-2A202603362-DataIngestionEngineering-main/starter/docker-compose.yml \
+  up -d --wait
+```
+
+Lệnh trên chỉ khởi động PostgreSQL; database mới vẫn cần được index theo hướng dẫn Day 6 trước khi dùng. Export chunks từ index strategy C (hoặc dùng file dữ liệu đã kiểm tra kèm benchmark):
+
+```bash
+python3 starter/export_day6.py --output starter/data/day7/chunks.json --strategy C
+```
+
+Chạy đủ ba phương pháp trên dev, rồi chạy baseline dense và cấu hình hybrid đã chọn trên test bằng thư mục output riêng:
+
+```bash
+python3 starter/run_agent.py \
+  --chunks starter/data/day7/chunks.json \
+  --questions starter/data/day7/questions.json \
+  --split dev --methods dense,lexical,hybrid \
+  --strategy C --top-k 3 --candidate-k 20 --budget 6000 \
+  --agent-model gemini-3.5-flash-lite \
+  --output starter/results/agent-dev
+
+python3 starter/run_agent.py \
+  --chunks starter/data/day7/chunks.json \
+  --questions starter/data/day7/questions.json \
+  --split test --methods dense,hybrid \
+  --strategy C --top-k 3 --candidate-k 20 --budget 6000 \
+  --agent-model gemini-3.5-flash-lite \
+  --output starter/results/agent-test
+```
+
+Có thể thêm `--question-id q16` để chạy một câu trong split đã chọn; chọn output directory chưa tồn tại để tránh ghi đè. Mỗi run lưu cases, traces và summary, gồm tool calls, context, câu trả lời, citations, lỗi, thời gian và usage metadata nếu API trả về. Chi phí thực tế phải kiểm tra trong trang billing của Gemini; script không tự ước lượng. Để kiểm tra hỗ trợ tham số:
+
+```bash
+python3 starter/run_agent.py --help
+```
+
 ## Lưu ý
 
 TF-IDF dùng cách tách từ đơn giản. `baseline.py` dùng mặc định context budget 800 ký tự, gồm cả nguồn; chunk không vừa bị bỏ. Bạn có thể chọn cách khác. File kết quả cùng tên sẽ bị ghi đè. `starter/data/` và `starter/results/` không được Git theo dõi mặc định; nếu được phép chia sẻ, dùng `git add -f <đường-dẫn>`, hoặc ghi cách tái tạo. Không nộp dữ liệu mật và secret.

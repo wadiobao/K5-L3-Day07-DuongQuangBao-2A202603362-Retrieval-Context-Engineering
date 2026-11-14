@@ -1,0 +1,30 @@
+{
+  "method": "hybrid-selected",
+  "split": "test",
+  "answerable_n": 5,
+  "total_n": 7,
+  "Hit@1": {
+    "n": 3,
+    "N": 5,
+    "rate": 0.6
+  },
+  "Evidence_Hit@3": {
+    "n": 4,
+    "N": 5,
+    "rate": 0.8
+  },
+  "Context_Evidence_Rate": {
+    "n": 4,
+    "N": 5,
+    "rate": 0.8
+  },
+  "returned_k": 3,
+  "candidate_k": 20,
+  "context_budget_chars": 6000,
+  "median_ms": 469.43058499982726,
+  "query_embedding_model": "gemini-embedding-2",
+  "query_embedding_dimensions": 768,
+  "query_embedding_requests": 7,
+  "embedding_tokens_reported": null,
+  "configuration_locked_on_dev": true
+}

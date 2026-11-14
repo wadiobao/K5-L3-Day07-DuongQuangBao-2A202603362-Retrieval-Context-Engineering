@@ -48,6 +48,34 @@ class BaselineTests(unittest.TestCase):
         self.assertTrue(trace['hit3'])
         self.assertFalse(trace['context_hit'])
 
+    def test_unanswerable_questions_are_valid_and_excluded_from_retrieval_metrics(self):
+        unanswerable = {
+            'id': 'q-missing',
+            'split': 'dev',
+            'question': 'Trong tài liệu có quy định về hoàn tiền bằng vàng không?',
+            'answerable': False,
+            'expected_behavior': 'search_and_abstain',
+            'absence_reason': 'Đã rà soát nội dung và không có quy định này.',
+        }
+        validate(self.chunks, [unanswerable])
+        trace = evaluate(TfidfIndex(self.chunks), [unanswerable])[0]
+        self.assertIsNone(trace['hit1'])
+        self.assertIsNone(trace['hit3'])
+        self.assertIsNone(trace['context_hit'])
+
+        with self.assertRaises(ValueError):
+            validate(self.chunks, [{**unanswerable, 'gold': [{'source_id': 'doc', 'page': 1, 'evidence': 'bảy ngày'}]}])
+
+    def test_lexical_retrieval_respects_metadata_filters(self):
+        filtered = TfidfIndex([
+            {**self.chunks[0], 'metadata': {'section_id': 'chapter-1'}},
+            {**self.chunks[1], 'metadata': {'section_id': 'chapter-2'}},
+        ])
+        self.assertEqual(
+            [row['id'] for row in filtered.search('ngày', filters={'section_id': 'chapter-2'})],
+            ['b'],
+        )
+
     def test_convert_day6_and_preserve_filter(self):
         raw_chunk = {'chunk_id': 'c1', 'document_id': 'doc', 'source': 'doc.pdf', 'page': 1,
                      'text': 'bảy ngày', 'metadata': {'year': 2025}}
@@ -57,6 +85,26 @@ class BaselineTests(unittest.TestCase):
         validate([c], [q])
         self.assertEqual(q['filter'], {'year': 2025})
         self.assertEqual(c['id'], 'c1')
+
+    def test_convert_unanswerable_question(self):
+        raw = {
+            'id': 'q-missing',
+            'split': 'dev',
+            'question': 'Không có trong corpus?',
+            'answerable': False,
+            'absence_reason': 'Đã rà soát corpus.',
+        }
+        self.assertEqual(
+            convert_question(raw),
+            {
+                'id': 'q-missing',
+                'split': 'dev',
+                'question': 'Không có trong corpus?',
+                'answerable': False,
+                'expected_behavior': 'search_and_abstain',
+                'absence_reason': 'Đã rà soát corpus.',
+            },
+        )
 
     def test_cli_uses_requested_split_only(self):
         with tempfile.TemporaryDirectory() as d:

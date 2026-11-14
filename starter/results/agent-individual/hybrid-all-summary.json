@@ -1,0 +1,73 @@
+{
+  "split": "all",
+  "method": "hybrid",
+  "total_questions": 24,
+  "answerable_questions": 20,
+  "unanswerable_questions": 4,
+  "status_counts": {
+    "abstain": 4,
+    "answered": 20
+  },
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 24,
+    "N": 24
+  },
+  "total_search_calls": 37,
+  "citations": {
+    "total": 22,
+    "invalid_or_outside_final_context": 0
+  },
+  "model_usage": {
+    "models": [
+      "gemini-3.5-flash-lite"
+    ],
+    "calls": 61,
+    "prompt_tokens_reported": 63370,
+    "candidate_tokens_reported": 2801,
+    "total_tokens_reported": 66171,
+    "agent_cost_usd": null
+  },
+  "review_flags": {
+    "answerable_but_abstained": [
+      "q15"
+    ],
+    "unanswerable_but_status_answered": [
+      "q21"
+    ],
+    "search_limit_reached": [
+      "q15",
+      "q23",
+      "q24"
+    ]
+  },
+  "manual_answer_and_citation_reviews_pending": true,
+  "question_ids": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q21",
+    "q22",
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20",
+    "q23",
+    "q24"
+  ],
+  "agent_cost_usd": 0.0,
+  "cost_note": "User confirmed these Gemini agent runs used the free tier; cost reported as $0.00."
+}

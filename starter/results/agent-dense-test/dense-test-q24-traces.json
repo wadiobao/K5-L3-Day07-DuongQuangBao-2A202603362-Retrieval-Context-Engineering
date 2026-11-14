@@ -1,0 +1,447 @@
+[
+  {
+    "query_id": "q24",
+    "split": "test",
+    "question": "What is the White Rabbit's full personal name?",
+    "answerable": false,
+    "method": "dense",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "White Rabbit full personal name",
+        "filter": null,
+        "results": [
+          {
+            "id": "48d7ec9c275edd35b4df7a44",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 12,
+            "text": "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.\n\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.",
+            "metadata": {
+              "page": 12,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+              "unit_id": "alice-wonderland-unit-012",
+              "end_char": 1026,
+              "language": "en",
+              "char_count": 2696,
+              "section_id": "chapter-iv",
+              "start_char": 0,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2696,
+              "unit_start_char": 0
+            },
+            "score": 0.726578273349491,
+            "strategy": "dense"
+          },
+          {
+            "id": "f59557eb777bfdf777f30493",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 12,
+            "text": "“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n“How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”",
+            "metadata": {
+              "page": 12,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+              "unit_id": "alice-wonderland-unit-012",
+              "end_char": 2000,
+              "language": "en",
+              "char_count": 2696,
+              "section_id": "chapter-iv",
+              "start_char": 1028,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2696,
+              "unit_start_char": 0
+            },
+            "score": 0.7172935896797978,
+            "strategy": "dense"
+          },
+          {
+            "id": "c71053f21f0a283eb60c6118",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 2,
+            "text": "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+            "metadata": {
+              "page": 2,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter I — Down the Rabbit-Hole",
+              "unit_id": "alice-wonderland-unit-002",
+              "end_char": 2954,
+              "language": "en",
+              "char_count": 2954,
+              "section_id": "chapter-i",
+              "start_char": 2376,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 5600,
+              "unit_start_char": 2646
+            },
+            "score": 0.7062739379732548,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[48d7ec9c275edd35b4df7a44 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 12]\nIt was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.\n\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.\n\n[f59557eb777bfdf777f30493 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 12]\n“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n“How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”\n\n[c71053f21f0a283eb60c6118 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 2]\nAlice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+        "context_ids": [
+          "48d7ec9c275edd35b4df7a44",
+          "f59557eb777bfdf777f30493",
+          "c71053f21f0a283eb60c6118"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "White Rabbit full name Alice in Wonderland",
+        "filter": null,
+        "results": [
+          {
+            "id": "48d7ec9c275edd35b4df7a44",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 12,
+            "text": "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.\n\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.",
+            "metadata": {
+              "page": 12,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+              "unit_id": "alice-wonderland-unit-012",
+              "end_char": 1026,
+              "language": "en",
+              "char_count": 2696,
+              "section_id": "chapter-iv",
+              "start_char": 0,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2696,
+              "unit_start_char": 0
+            },
+            "score": 0.7364693346443573,
+            "strategy": "dense"
+          },
+          {
+            "id": "f59557eb777bfdf777f30493",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 12,
+            "text": "“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n“How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”",
+            "metadata": {
+              "page": 12,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+              "unit_id": "alice-wonderland-unit-012",
+              "end_char": 2000,
+              "language": "en",
+              "char_count": 2696,
+              "section_id": "chapter-iv",
+              "start_char": 1028,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2696,
+              "unit_start_char": 0
+            },
+            "score": 0.7244996981920186,
+            "strategy": "dense"
+          },
+          {
+            "id": "c71053f21f0a283eb60c6118",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 2,
+            "text": "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+            "metadata": {
+              "page": 2,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter I — Down the Rabbit-Hole",
+              "unit_id": "alice-wonderland-unit-002",
+              "end_char": 2954,
+              "language": "en",
+              "char_count": 2954,
+              "section_id": "chapter-i",
+              "start_char": 2376,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 5600,
+              "unit_start_char": 2646
+            },
+            "score": 0.7104532083463859,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[48d7ec9c275edd35b4df7a44 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 12]\nIt was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.\n\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.\n\n[f59557eb777bfdf777f30493 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 12]\n“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n“How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”\n\n[c71053f21f0a283eb60c6118 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 2]\nAlice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+        "context_ids": [
+          "48d7ec9c275edd35b4df7a44",
+          "f59557eb777bfdf777f30493",
+          "c71053f21f0a283eb60c6118"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "White Rabbit full name",
+        "filter": null,
+        "results": [
+          {
+            "id": "48d7ec9c275edd35b4df7a44",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 12,
+            "text": "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.\n\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.",
+            "metadata": {
+              "page": 12,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+              "unit_id": "alice-wonderland-unit-012",
+              "end_char": 1026,
+              "language": "en",
+              "char_count": 2696,
+              "section_id": "chapter-iv",
+              "start_char": 0,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2696,
+              "unit_start_char": 0
+            },
+            "score": 0.7275485668548498,
+            "strategy": "dense"
+          },
+          {
+            "id": "c71053f21f0a283eb60c6118",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 2,
+            "text": "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+            "metadata": {
+              "page": 2,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter I — Down the Rabbit-Hole",
+              "unit_id": "alice-wonderland-unit-002",
+              "end_char": 2954,
+              "language": "en",
+              "char_count": 2954,
+              "section_id": "chapter-i",
+              "start_char": 2376,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 5600,
+              "unit_start_char": 2646
+            },
+            "score": 0.7152821552020288,
+            "strategy": "dense"
+          },
+          {
+            "id": "f59557eb777bfdf777f30493",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 12,
+            "text": "“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n“How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”",
+            "metadata": {
+              "page": 12,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+              "unit_id": "alice-wonderland-unit-012",
+              "end_char": 2000,
+              "language": "en",
+              "char_count": 2696,
+              "section_id": "chapter-iv",
+              "start_char": 1028,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2696,
+              "unit_start_char": 0
+            },
+            "score": 0.7109786444320125,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[48d7ec9c275edd35b4df7a44 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 12]\nIt was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.\n\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.\n\n[f59557eb777bfdf777f30493 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 12]\n“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n“How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”\n\n[c71053f21f0a283eb60c6118 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 2]\nAlice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+        "context_ids": [
+          "48d7ec9c275edd35b4df7a44",
+          "f59557eb777bfdf777f30493",
+          "c71053f21f0a283eb60c6118"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "White Rabbit full name OR \"personal name\" OR \"first name\" OR \"W. RABBIT\"",
+        "filter": null,
+        "results": [
+          {
+            "id": "48d7ec9c275edd35b4df7a44",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 12,
+            "text": "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.\n\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.",
+            "metadata": {
+              "page": 12,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+              "unit_id": "alice-wonderland-unit-012",
+              "end_char": 1026,
+              "language": "en",
+              "char_count": 2696,
+              "section_id": "chapter-iv",
+              "start_char": 0,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2696,
+              "unit_start_char": 0
+            },
+            "score": 0.73123355451531,
+            "strategy": "dense"
+          },
+          {
+            "id": "f59557eb777bfdf777f30493",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 12,
+            "text": "“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n“How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”",
+            "metadata": {
+              "page": 12,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+              "unit_id": "alice-wonderland-unit-012",
+              "end_char": 2000,
+              "language": "en",
+              "char_count": 2696,
+              "section_id": "chapter-iv",
+              "start_char": 1028,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2696,
+              "unit_start_char": 0
+            },
+            "score": 0.7169368941934819,
+            "strategy": "dense"
+          },
+          {
+            "id": "c71053f21f0a283eb60c6118",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 2,
+            "text": "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+            "metadata": {
+              "page": 2,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter I — Down the Rabbit-Hole",
+              "unit_id": "alice-wonderland-unit-002",
+              "end_char": 2954,
+              "language": "en",
+              "char_count": 2954,
+              "section_id": "chapter-i",
+              "start_char": 2376,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 5600,
+              "unit_start_char": 2646
+            },
+            "score": 0.7061777150193798,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[48d7ec9c275edd35b4df7a44 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 12]\nIt was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.\n\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.\n\n[f59557eb777bfdf777f30493 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 12]\n“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n“How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”\n\n[c71053f21f0a283eb60c6118 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 2]\nAlice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+        "context_ids": [
+          "48d7ec9c275edd35b4df7a44",
+          "f59557eb777bfdf777f30493",
+          "c71053f21f0a283eb60c6118"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "original_query_top3": [
+      {
+        "id": "48d7ec9c275edd35b4df7a44",
+        "source_id": "alice-wonderland",
+        "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+        "page": 12,
+        "text": "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.\n\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.",
+        "metadata": {
+          "page": 12,
+          "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+          "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+          "unit_id": "alice-wonderland-unit-012",
+          "end_char": 1026,
+          "language": "en",
+          "char_count": 2696,
+          "section_id": "chapter-iv",
+          "start_char": 0,
+          "work_title": "Alice's Adventures in Wonderland",
+          "document_id": "alice-wonderland",
+          "unit_end_char": 2696,
+          "unit_start_char": 0
+        },
+        "score": 0.7356339035362439,
+        "strategy": "dense"
+      },
+      {
+        "id": "f59557eb777bfdf777f30493",
+        "source_id": "alice-wonderland",
+        "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+        "page": 12,
+        "text": "“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n“How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”",
+        "metadata": {
+          "page": 12,
+          "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+          "section": "Chapter IV — The Rabbit Sends in a Little Bill",
+          "unit_id": "alice-wonderland-unit-012",
+          "end_char": 2000,
+          "language": "en",
+          "char_count": 2696,
+          "section_id": "chapter-iv",
+          "start_char": 1028,
+          "work_title": "Alice's Adventures in Wonderland",
+          "document_id": "alice-wonderland",
+          "unit_end_char": 2696,
+          "unit_start_char": 0
+        },
+        "score": 0.7212164871594386,
+        "strategy": "dense"
+      },
+      {
+        "id": "c71053f21f0a283eb60c6118",
+        "source_id": "alice-wonderland",
+        "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+        "page": 2,
+        "text": "Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+        "metadata": {
+          "page": 2,
+          "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+          "section": "Chapter I — Down the Rabbit-Hole",
+          "unit_id": "alice-wonderland-unit-002",
+          "end_char": 2954,
+          "language": "en",
+          "char_count": 2954,
+          "section_id": "chapter-i",
+          "start_char": 2376,
+          "work_title": "Alice's Adventures in Wonderland",
+          "document_id": "alice-wonderland",
+          "unit_end_char": 5600,
+          "unit_start_char": 2646
+        },
+        "score": 0.7138116829304737,
+        "strategy": "dense"
+      }
+    ],
+    "context_ids": [
+      "48d7ec9c275edd35b4df7a44",
+      "f59557eb777bfdf777f30493",
+      "c71053f21f0a283eb60c6118"
+    ],
+    "hit1": null,
+    "hit3": null,
+    "usage": {
+      "calls": 5,
+      "prompt_tokens": 4775,
+      "candidate_tokens": 123,
+      "total_tokens": 4898
+    },
+    "elapsed_ms": 7076.57417900009,
+    "agent_cost_usd": 0.0,
+    "cost_note": "User confirmed these Gemini agent runs used the free tier; cost reported as $0.00."
+  }
+]

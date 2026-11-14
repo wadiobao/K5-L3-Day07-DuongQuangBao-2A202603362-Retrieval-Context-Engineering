@@ -1,0 +1,60 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [
+      true
+    ],
+    "review_reason": "Correctly identifies hedgehogs as balls and flamingoes as mallets; cited page 32 directly supports both.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [
+      true
+    ],
+    "review_reason": "Correctly gives Reeling and Writhing; cited page 38 directly names both as the first subjects.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [
+      true,
+      true
+    ],
+    "review_reason": "Complete and accurate. Both citations support the dance steps. The exact gold verse on page 40 is not in final context, but the cited page 39 passages independently support throwing lobsters out to sea, swimming after them, the somersault, and return to land.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [
+      true
+    ],
+    "review_reason": "Correctly identifies the table and large dish of tarts; citation supports the answer.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [
+      true
+    ],
+    "review_reason": "Correctly identifies Alice tipping the jury-box with her skirt; citation supports the cause.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "q23",
+    "citation_support": [],
+    "review_reason": "Correct abstention: the indexed corpus contains no exact calendar date for Alice falling down the rabbit-hole.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "q24",
+    "citation_support": [],
+    "review_reason": "Correct abstention: the indexed corpus refers to the character as the White Rabbit but provides no full personal name.",
+    "abstention_correct": true
+  }
+]

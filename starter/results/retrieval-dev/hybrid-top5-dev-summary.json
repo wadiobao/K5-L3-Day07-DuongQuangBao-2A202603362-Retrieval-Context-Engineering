@@ -1,0 +1,30 @@
+{
+  "method": "hybrid_rrf",
+  "split": "dev",
+  "answerable_n": 15,
+  "total_n": 17,
+  "Hit@1": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.9333333333333333
+  },
+  "Evidence_Hit@3": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  },
+  "Context_Evidence_Rate": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  },
+  "returned_k": 5,
+  "candidate_k": 20,
+  "context_budget_chars": 6000,
+  "median_ms": 445.17867100012154,
+  "query_embedding_model": "gemini-embedding-2",
+  "query_embedding_dimensions": 768,
+  "query_embedding_requests": 17,
+  "embedding_tokens_reported": null,
+  "hypothesis": "Increasing returned context candidates from 3 to 5 may improve evidence coverage; top-3 ranking metrics use the unchanged cutoff."
+}
