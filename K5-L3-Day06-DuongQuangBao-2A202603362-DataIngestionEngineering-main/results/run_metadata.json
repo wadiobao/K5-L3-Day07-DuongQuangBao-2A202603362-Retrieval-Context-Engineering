@@ -1,0 +1,24 @@
+{
+  "completed_at": "2026-11-13T04:39:16.422194+00:00",
+  "embedding_model": "gemini-embedding-2",
+  "dimensions": 768,
+  "embedding_requests": 273,
+  "input_tokens_reported_by_api": null,
+  "cost_usd": 0,
+  "cost_note": "Free tier",
+  "database": {
+    "postgres_version": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector_version": "0.8.7"
+  },
+  "exact_search_metric": "cosine",
+  "elapsed_seconds": {
+    "A": 141.7352757509966,
+    "B": 168.13425444800032,
+    "C": 0.39509774500220374
+  },
+  "search_seconds": {
+    "A": 0.34526929699677567,
+    "B": 0.3051611330010928,
+    "C": 0.28500159900249855
+  }
+}

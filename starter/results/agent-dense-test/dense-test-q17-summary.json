@@ -1,0 +1,60 @@
+{
+  "method": "dense",
+  "split": "test",
+  "total_questions": 1,
+  "answerable_questions": 1,
+  "unanswerable_questions": 0,
+  "Hit@1": {
+    "n": 1,
+    "N": 1,
+    "rate": 1.0
+  },
+  "Evidence_Hit@3": {
+    "n": 1,
+    "N": 1,
+    "rate": 1.0
+  },
+  "Context_Evidence_Rate": {
+    "n": 1,
+    "N": 1,
+    "rate": 1.0
+  },
+  "tool_use": {
+    "n": 1,
+    "N": 1,
+    "rate": 1.0
+  },
+  "search_calls": {
+    "total": 1,
+    "mean_per_successful_case": 1,
+    "distribution": {
+      "1": 1
+    }
+  },
+  "configuration": {
+    "top_k": 3,
+    "max_searches": 4,
+    "context_budget_chars": 6000,
+    "candidate_k": null
+  },
+  "errors": [],
+  "timing_ms": {
+    "median_per_case": 4058.3026489994154,
+    "mean_per_case": 4058.3026489994154,
+    "total": 4108.431778000522
+  },
+  "agent_model": "gemini-3.5-flash-lite",
+  "embedding_billing": "Gemini Embedding 2 free tier (reported for Day 6)",
+  "agent_cost_usd": 0.0,
+  "cost_note": "User confirmed these Gemini agent runs used the free tier; cost reported as $0.00.",
+  "benchmark_counts": {
+    "answerable": 5,
+    "unanswerable": 2
+  },
+  "question_id": "q17",
+  "strategy": "C",
+  "embedding_model": "gemini-embedding-2",
+  "embedding_dimensions": 768,
+  "embedding_requests": 2,
+  "embedding_tokens_reported": null
+}

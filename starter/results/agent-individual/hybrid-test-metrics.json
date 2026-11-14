@@ -1,0 +1,34 @@
+{
+  "split": "test",
+  "cases": 7,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 7,
+    "N": 7
+  },
+  "grounded_answer": {
+    "0": 0,
+    "1": 0,
+    "2": 5,
+    "N": 5,
+    "mean": 2.0
+  },
+  "citation_validity": {
+    "n": 6,
+    "N": 6
+  },
+  "answer_citation_coverage": {
+    "n": 5,
+    "N": 5
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 5
+  },
+  "agent_cost_usd": 0.0,
+  "cost_note": "User confirmed these Gemini agent runs used the free tier; cost reported as $0.00."
+}

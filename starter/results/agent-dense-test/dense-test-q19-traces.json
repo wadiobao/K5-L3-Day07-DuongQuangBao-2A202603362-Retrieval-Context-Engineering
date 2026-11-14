@@ -1,0 +1,194 @@
+[
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "What was placed in the middle of the courtroom?",
+    "answerable": true,
+    "method": "dense",
+    "status": "answered",
+    "answer": "In the very middle of the court was a table with a large dish of tarts upon it. [e7ee9c198b5c00bc74f76586]",
+    "citations": [
+      "e7ee9c198b5c00bc74f76586"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "middle of the courtroom",
+        "filter": null,
+        "results": [
+          {
+            "id": "93bb2e9f433bcd3852eff2e2",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 47,
+            "text": "As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court.\n\n“What do you know about this business?” the King said to Alice.\n\n“Nothing,” said Alice.\n\n“Nothing _whatever?_” persisted the King.\n\n“Nothing whatever,” said Alice.\n\n“That’s very important,” the King said, turning to the jury. They were just beginning to write this down on their slates, when the White Rabbit interrupted: “_Un_important, your Majesty means, of course,” he said in a very respectful tone, but frowning and making faces at him as he spoke.\n\n“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,\n\n“important—unimportant—unimportant—important—” as if he were trying which word sounded best.\n\nSome of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.\n\nAt this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”\n\nEverybody looked at Alice.\n\n“_I’m_ not a mile high,” said Alice.\n\n“You are,” said the King.",
+            "metadata": {
+              "page": 47,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter XII — Alice’s Evidence",
+              "unit_id": "alice-wonderland-unit-047",
+              "end_char": 2790,
+              "language": "en",
+              "char_count": 2996,
+              "section_id": "chapter-xii",
+              "start_char": 1290,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2996,
+              "unit_start_char": 0
+            },
+            "score": 0.6976684415047164,
+            "strategy": "dense"
+          },
+          {
+            "id": "e7ee9c198b5c00bc74f76586",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 43,
+            "text": "The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.\n\nAlice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.”\n\nThe judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.",
+            "metadata": {
+              "page": 43,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter XI — Who Stole the Tarts?",
+              "unit_id": "alice-wonderland-unit-043",
+              "end_char": 1184,
+              "language": "en",
+              "char_count": 2531,
+              "section_id": "chapter-xi",
+              "start_char": 0,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2531,
+              "unit_start_char": 0
+            },
+            "score": 0.6974516926677156,
+            "strategy": "dense"
+          },
+          {
+            "id": "b377b26008f0995848e610f6",
+            "source_id": "alice-wonderland",
+            "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+            "page": 43,
+            "text": "“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all. However, “jury-men” would have done just as well.\n\nThe twelve jurors were all writing very busily on slates. “What are they doing?” Alice whispered to the Gryphon. “They can’t have anything to put down yet, before the trial’s begun.”\n\n“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”\n\n“Stupid things!” Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, “Silence in the court!” and the King put on his spectacles and looked anxiously round, to make out who was talking.\n\nAlice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him. “A nice muddle their slates’ll be in before the trial’s over!” thought Alice.",
+            "metadata": {
+              "page": 43,
+              "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+              "section": "Chapter XI — Who Stole the Tarts?",
+              "unit_id": "alice-wonderland-unit-043",
+              "end_char": 2531,
+              "language": "en",
+              "char_count": 2531,
+              "section_id": "chapter-xi",
+              "start_char": 1186,
+              "work_title": "Alice's Adventures in Wonderland",
+              "document_id": "alice-wonderland",
+              "unit_end_char": 2531,
+              "unit_start_char": 0
+            },
+            "score": 0.6941770546647424,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[93bb2e9f433bcd3852eff2e2 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 47]\nAs soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court.\n\n“What do you know about this business?” the King said to Alice.\n\n“Nothing,” said Alice.\n\n“Nothing _whatever?_” persisted the King.\n\n“Nothing whatever,” said Alice.\n\n“That’s very important,” the King said, turning to the jury. They were just beginning to write this down on their slates, when the White Rabbit interrupted: “_Un_important, your Majesty means, of course,” he said in a very respectful tone, but frowning and making faces at him as he spoke.\n\n“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,\n\n“important—unimportant—unimportant—important—” as if he were trying which word sounded best.\n\nSome of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.\n\nAt this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”\n\nEverybody looked at Alice.\n\n“_I’m_ not a mile high,” said Alice.\n\n“You are,” said the King.\n\n[e7ee9c198b5c00bc74f76586 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 43]\nThe King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.\n\nAlice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.”\n\nThe judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.\n\n[b377b26008f0995848e610f6 | https://www.gutenberg.org/cache/epub/11/pg11.txt | page 43]\n“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all. However, “jury-men” would have done just as well.\n\nThe twelve jurors were all writing very busily on slates. “What are they doing?” Alice whispered to the Gryphon. “They can’t have anything to put down yet, before the trial’s begun.”\n\n“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”\n\n“Stupid things!” Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, “Silence in the court!” and the King put on his spectacles and looked anxiously round, to make out who was talking.\n\nAlice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him. “A nice muddle their slates’ll be in before the trial’s over!” thought Alice.",
+        "context_ids": [
+          "93bb2e9f433bcd3852eff2e2",
+          "e7ee9c198b5c00bc74f76586",
+          "b377b26008f0995848e610f6"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "original_query_top3": [
+      {
+        "id": "e7ee9c198b5c00bc74f76586",
+        "source_id": "alice-wonderland",
+        "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+        "page": 43,
+        "text": "The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.\n\nAlice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.”\n\nThe judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.",
+        "metadata": {
+          "page": 43,
+          "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+          "section": "Chapter XI — Who Stole the Tarts?",
+          "unit_id": "alice-wonderland-unit-043",
+          "end_char": 1184,
+          "language": "en",
+          "char_count": 2531,
+          "section_id": "chapter-xi",
+          "start_char": 0,
+          "work_title": "Alice's Adventures in Wonderland",
+          "document_id": "alice-wonderland",
+          "unit_end_char": 2531,
+          "unit_start_char": 0
+        },
+        "score": 0.7476445280446846,
+        "strategy": "dense"
+      },
+      {
+        "id": "b377b26008f0995848e610f6",
+        "source_id": "alice-wonderland",
+        "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+        "page": 43,
+        "text": "“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all. However, “jury-men” would have done just as well.\n\nThe twelve jurors were all writing very busily on slates. “What are they doing?” Alice whispered to the Gryphon. “They can’t have anything to put down yet, before the trial’s begun.”\n\n“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”\n\n“Stupid things!” Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, “Silence in the court!” and the King put on his spectacles and looked anxiously round, to make out who was talking.\n\nAlice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him. “A nice muddle their slates’ll be in before the trial’s over!” thought Alice.",
+        "metadata": {
+          "page": 43,
+          "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+          "section": "Chapter XI — Who Stole the Tarts?",
+          "unit_id": "alice-wonderland-unit-043",
+          "end_char": 2531,
+          "language": "en",
+          "char_count": 2531,
+          "section_id": "chapter-xi",
+          "start_char": 1186,
+          "work_title": "Alice's Adventures in Wonderland",
+          "document_id": "alice-wonderland",
+          "unit_end_char": 2531,
+          "unit_start_char": 0
+        },
+        "score": 0.6978198401284093,
+        "strategy": "dense"
+      },
+      {
+        "id": "93bb2e9f433bcd3852eff2e2",
+        "source_id": "alice-wonderland",
+        "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+        "page": 47,
+        "text": "As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court.\n\n“What do you know about this business?” the King said to Alice.\n\n“Nothing,” said Alice.\n\n“Nothing _whatever?_” persisted the King.\n\n“Nothing whatever,” said Alice.\n\n“That’s very important,” the King said, turning to the jury. They were just beginning to write this down on their slates, when the White Rabbit interrupted: “_Un_important, your Majesty means, of course,” he said in a very respectful tone, but frowning and making faces at him as he spoke.\n\n“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,\n\n“important—unimportant—unimportant—important—” as if he were trying which word sounded best.\n\nSome of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.\n\nAt this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”\n\nEverybody looked at Alice.\n\n“_I’m_ not a mile high,” said Alice.\n\n“You are,” said the King.",
+        "metadata": {
+          "page": 47,
+          "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+          "section": "Chapter XII — Alice’s Evidence",
+          "unit_id": "alice-wonderland-unit-047",
+          "end_char": 2790,
+          "language": "en",
+          "char_count": 2996,
+          "section_id": "chapter-xii",
+          "start_char": 1290,
+          "work_title": "Alice's Adventures in Wonderland",
+          "document_id": "alice-wonderland",
+          "unit_end_char": 2996,
+          "unit_start_char": 0
+        },
+        "score": 0.6963930081928268,
+        "strategy": "dense"
+      }
+    ],
+    "context_ids": [
+      "93bb2e9f433bcd3852eff2e2",
+      "e7ee9c198b5c00bc74f76586",
+      "b377b26008f0995848e610f6"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 1734,
+      "candidate_tokens": 77,
+      "total_tokens": 1811
+    },
+    "elapsed_ms": 3130.8970290001525,
+    "agent_cost_usd": 0.0,
+    "cost_note": "User confirmed these Gemini agent runs used the free tier; cost reported as $0.00."
+  }
+]

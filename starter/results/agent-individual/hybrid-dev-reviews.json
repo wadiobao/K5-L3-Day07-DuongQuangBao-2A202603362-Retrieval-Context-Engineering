@@ -1,0 +1,151 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 1; the cited passage supports it."
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 3; the cited passage supports it."
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 1; the cited passage supports it."
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 7; the cited passage supports it."
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 8; the cited passage supports it."
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 9; the cited passage supports it."
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 10; the cited passage supports it."
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 15; the cited passage supports it."
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 14; the cited passage supports it."
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 17; the cited passage supports it."
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 18; the cited passage supports it."
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 22; the cited passage supports it."
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 26; the cited passage supports it."
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "review_reason": "Answer matches the gold evidence on page 28; the cited passage supports it."
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [],
+    "answer_grade": 0,
+    "context_grade": 0,
+    "review_reason": "False abstention. Search results surfaced the page-27 tea-on-nose evidence, but that chunk was not in the final context; no citation was returned."
+  },
+  {
+    "query_id": "q21",
+    "citation_support": [
+      false
+    ],
+    "abstention_correct": false,
+    "context_grade": 1,
+    "review_reason": "The wording says the exact name is unknown, but trace status is answered; the citation supports only that Alice attended a day-school, not the absence of an exact name across the corpus."
+  },
+  {
+    "query_id": "q22",
+    "citation_support": [],
+    "abstention_correct": true,
+    "review_reason": "The requested street address is absent from the source; the agent correctly abstains."
+  }
+]

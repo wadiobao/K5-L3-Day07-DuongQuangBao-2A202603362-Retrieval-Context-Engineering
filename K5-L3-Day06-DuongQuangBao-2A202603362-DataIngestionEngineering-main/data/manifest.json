@@ -1,0 +1,16 @@
+{
+  "document_id": "alice-wonderland",
+  "title": "Alice's Adventures in Wonderland",
+  "author": "Lewis Carroll",
+  "source_url": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+  "source_path": "alice-wonderland.txt",
+  "accessed_at": "2026-11-13",
+  "license_or_permission": "Project Gutenberg eBook #11; public domain in the United States. The original work is public domain in many jurisdictions, but users outside the United States must verify local law. Attribution: Project Gutenberg, https://www.gutenberg.org/ebooks/11.",
+  "format": "gutenberg_text",
+  "language": "en",
+  "source_unit_count": 50,
+  "page_numbering_rule": "The plain-text source has no physical page numbers; page is a one-based ordinal for each paragraph-aligned logical source unit in book order.",
+  "unitization_rule": "Remove Gutenberg wrapper and chapter headings, normalize NFC/whitespace, group paragraphs toward 3000 characters, split oversized paragraphs at word boundaries, merge a short final unit with its predecessor when possible, and skip/log any remaining unit under 1500 characters. Unit offsets are relative to normalized chapter text.",
+  "unit_target_chars": 3000,
+  "minimum_unit_chars": 1500
+}

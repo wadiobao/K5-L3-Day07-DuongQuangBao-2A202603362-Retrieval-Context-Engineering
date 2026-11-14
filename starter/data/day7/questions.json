@@ -1,0 +1,329 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "In Chapter I, what unusual item did the White Rabbit take from its waistcoat pocket?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 1,
+        "evidence": "took a watch out of its waistcoat-pocket"
+      }
+    ],
+    "expected_answer": "A watch."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "In Chapter I, what words were printed on the small bottle's label?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 3,
+        "evidence": "the words “DRINK ME,” beautifully printed on it in large letters"
+      }
+    ],
+    "expected_answer": "DRINK ME.",
+    "filter": {
+      "section_id": "chapter-i"
+    }
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Why did Alice put the empty marmalade jar back instead of dropping it?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 1,
+        "evidence": "she did not like to drop the jar for fear of killing somebody underneath"
+      }
+    ],
+    "expected_answer": "She was afraid it might kill someone below."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "What animal did Alice find swimming in the pool of tears?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 7,
+        "evidence": "only a mouse that had slipped in like herself"
+      }
+    ],
+    "expected_answer": "A mouse."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "In Chapter II, what French sentence did Alice say to the Mouse, causing it to leap from the water?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 8,
+        "evidence": "“Où est ma chatte?” which was the first sentence in her French lesson-book. The Mouse gave a sudden leap out of the water"
+      }
+    ],
+    "expected_answer": "Où est ma chatte?",
+    "filter": {
+      "section_id": "chapter-ii"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What did the Dodo say would be the best way to get everyone dry?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 9,
+        "evidence": "the best thing to get us dry would be a Caucus-race"
+      }
+    ],
+    "expected_answer": "A Caucus-race."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "According to the Dodo, who should give out the prizes after the race?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 10,
+        "evidence": "“Why, _she_, of course,” said the Dodo, pointing to Alice"
+      }
+    ],
+    "expected_answer": "Alice."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What did Alice swallow that made her begin shrinking?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 15,
+        "evidence": "she swallowed one of the cakes, and was delighted to find that she began shrinking directly"
+      }
+    ],
+    "expected_answer": "One of the cakes."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "In Chapter IV, what route did Alice expect Bill to use to get into the house?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 14,
+        "evidence": "Bill’s got to come down the chimney, has he?"
+      }
+    ],
+    "expected_answer": "The chimney."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What question did the Caterpillar ask Alice when they first spoke?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 17,
+        "evidence": "“Who are _you?_” said the Caterpillar"
+      }
+    ],
+    "expected_answer": "Who are you?"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "In Chapter V, what does the Caterpillar say the two sides of the mushroom will do?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 18,
+        "evidence": "One side will make you grow taller, and the other side will make you grow shorter."
+      }
+    ],
+    "expected_answer": "One side makes Alice taller and the other makes her shorter.",
+    "filter": {
+      "section_id": "chapter-v"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What ingredient in the Duchess's soup made Alice sneeze?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 22,
+        "evidence": "too much pepper in that soup"
+      }
+    ],
+    "expected_answer": "Pepper."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Who was sitting between the March Hare and the Hatter at the tea table?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 26,
+        "evidence": "a Dormouse was sitting between them, fast asleep"
+      }
+    ],
+    "expected_answer": "The Dormouse."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "What time does the Hatter say it always is?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 28,
+        "evidence": "It’s always six o’clock now."
+      }
+    ],
+    "expected_answer": "Six o'clock."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What does the Hatter pour on the Dormouse's nose after saying it is asleep again?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 27,
+        "evidence": "he poured a little hot tea upon its nose"
+      }
+    ],
+    "expected_answer": "A little hot tea."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "In Chapter VIII, which living creatures serve as the croquet balls and mallets?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 32,
+        "evidence": "the balls were live hedgehogs, the mallets live flamingoes"
+      }
+    ],
+    "expected_answer": "Hedgehogs are the balls and flamingoes are the mallets.",
+    "filter": {
+      "section_id": "chapter-viii"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What two subjects does the Mock Turtle name first when describing his lessons?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 38,
+        "evidence": "“Reeling and Writhing, of course, to begin with,” the Mock Turtle replied; “and then the different branches of Arithmetic"
+      }
+    ],
+    "expected_answer": "Reeling and Writhing, followed by branches of Arithmetic."
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 40,
+        "evidence": "When they take us up and throw us, with the lobsters, out to sea"
+      }
+    ],
+    "expected_answer": "They are taken up and thrown into the sea."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What was placed in the middle of the courtroom?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 43,
+        "evidence": "a table, with a large dish of tarts upon it"
+      }
+    ],
+    "expected_answer": "A table with a large dish of tarts."
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In Chapter XII, what caused the jury-box to tip over?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "alice-wonderland",
+        "page": 47,
+        "evidence": "tipped over the jury-box with the edge of her skirt"
+      }
+    ],
+    "expected_answer": "The edge of Alice's skirt.",
+    "filter": {
+      "section_id": "chapter-xii"
+    }
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "question": "What was the exact name of the school Alice attended before entering Wonderland?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The story mentions Alice had attended a day-school, but does not name that school."
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "question": "What is the street address of Alice's home?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The story does not provide a street address for Alice's home."
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "question": "On what exact calendar date did Alice first fall down the rabbit-hole?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The story narrates the fall but does not specify a calendar date."
+  },
+  {
+    "id": "q24",
+    "split": "test",
+    "question": "What is the White Rabbit's full personal name?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The story refers to him as the White Rabbit, but does not give a full personal name."
+  }
+]
