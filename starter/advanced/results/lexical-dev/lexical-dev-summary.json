@@ -1,0 +1,118 @@
+{
+  "method": "lexical",
+  "split": "dev",
+  "total_questions": 18,
+  "answerable_questions": 15,
+  "unanswerable_questions": 3,
+  "Hit@1": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+  },
+  "Evidence_Hit@3": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  },
+  "Context_Evidence_Rate": {
+    "n": 7,
+    "N": 15,
+    "rate": 0.4666666666666667
+  },
+  "tool_use": {
+    "n": 7,
+    "N": 7,
+    "rate": 1.0
+  },
+  "search_calls": {
+    "total": 10,
+    "mean_per_successful_case": 1.4285714285714286,
+    "distribution": {
+      "1": 6,
+      "4": 1
+    }
+  },
+  "configuration": {
+    "top_k": 3,
+    "max_searches": 4,
+    "context_budget_chars": 9000,
+    "candidate_k": null
+  },
+  "errors": [
+    {
+      "query_id": "DV-T01",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-T02",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-I01",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-C02",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-C03",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-M01",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-X01",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-X04",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-U01",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-U02",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "query_id": "DV-U03",
+      "type": "ServerError",
+      "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  ],
+  "timing_ms": {
+    "median_per_case": 10778.70505699957,
+    "mean_per_case": 11237.080112722146,
+    "total": 203314.50106400007
+  },
+  "agent_model": "gemini-3.5-flash-lite",
+  "embedding_billing": "Gemini Embedding 2 free tier (reported for Day 6)",
+  "agent_cost_usd": 0.0,
+  "cost_note": "User-confirmed Gemini API Free Tier run; charged cost is $0.",
+  "benchmark_counts": {
+    "answerable": 15,
+    "unanswerable": 3
+  },
+  "question_id": null,
+  "strategy": null,
+  "embedding_model": null,
+  "embedding_dimensions": null,
+  "embedding_requests": 0,
+  "embedding_tokens_reported": null,
+  "agent_cost_per_case_usd": 0.0
+}

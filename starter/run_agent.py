@@ -1,6 +1,7 @@
 """Run real Gemini tool-calling agents with Day 7 retrieval methods."""
 import argparse
 import json
+import math
 import os
 import statistics
 import sys
@@ -75,10 +76,15 @@ def run_method(
     top_k: int,
     max_searches: int,
     budget: int,
+    request_interval_seconds: float = 0.0,
+    agent_cost_per_case_usd: float | None = None,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     traces = []
     started_all = time.perf_counter()
-    controller = GeminiController(model=agent_model)
+    controller = GeminiController(
+        model=agent_model,
+        min_request_interval_seconds=request_interval_seconds,
+    )
     answerable = [question for question in questions if question.get('answerable', True)]
     hit1_count = 0
     hit3_count = 0
@@ -142,6 +148,7 @@ def run_method(
                 'context_ids': context_ids,
                 'hit1': retrieval_hit1,
                 'hit3': retrieval_hit3,
+                'agent_cost_usd': agent_cost_per_case_usd,
                 'usage': _usage_delta(usage_before, controller.usage_snapshot()),
             }
         except Exception as exc:
@@ -163,6 +170,7 @@ def run_method(
                 'context_ids': [],
                 'hit1': retrieval_hit1,
                 'hit3': retrieval_hit3,
+                'agent_cost_usd': agent_cost_per_case_usd,
                 'error': {'type': type(exc).__name__, 'message': str(exc)},
                 'usage': _usage_delta(usage_before, controller.usage_snapshot()),
             }
@@ -196,6 +204,7 @@ def run_method(
             'top_k': top_k,
             'max_searches': max_searches,
             'context_budget_chars': budget,
+            'request_interval_seconds': request_interval_seconds,
             'candidate_k': getattr(retriever, 'candidate_k', None),
         },
         'errors': [{'query_id': trace['query_id'], **trace['error']} for trace in errors],
@@ -206,8 +215,17 @@ def run_method(
         },
         'agent_model': agent_model or os.getenv('GEMINI_AGENT_MODEL', 'gemini-2.5-flash-lite'),
         'embedding_billing': 'Gemini Embedding 2 free tier (reported for Day 6)',
-        'agent_cost_usd': None,
-        'cost_note': 'Agent cost is not estimated; check current Gemini project billing.',
+        'agent_cost_usd': (
+            agent_cost_per_case_usd * len(traces)
+            if agent_cost_per_case_usd is not None
+            else None
+        ),
+        'agent_cost_per_case_usd': agent_cost_per_case_usd,
+        'cost_note': (
+            'Per-case cost supplied by the runner; total is per-case cost times question count.'
+            if agent_cost_per_case_usd is not None
+            else 'Agent cost is not estimated; check current Gemini project billing.'
+        ),
     }
     return traces, summary
 
@@ -226,6 +244,18 @@ def main() -> None:
     parser.add_argument('--candidate-k', type=int, default=20)
     parser.add_argument('--max-searches', type=int, default=4)
     parser.add_argument('--budget', type=int, default=6000, help='context budget tính bằng ký tự')
+    parser.add_argument(
+        '--request-interval',
+        type=float,
+        default=0,
+        help='Khoảng cách tối thiểu giữa các request Gemini (giây), ví dụ 6.2 cho free tier 10 RPM',
+    )
+    parser.add_argument(
+        '--agent-cost-per-case-usd',
+        type=float,
+        default=None,
+        help='Chi phí mỗi câu do người chạy khai báo; dùng 0 cho Gemini API Free Tier',
+    )
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
     try:
@@ -245,6 +275,12 @@ def main() -> None:
         raise ValueError(f'--methods phải là danh sách không lặp từ {sorted(supported)}')
     if args.top_k <= 0 or args.candidate_k <= 0 or args.max_searches <= 0 or args.budget <= 0:
         raise ValueError('top-k, candidate-k, max-searches và budget phải lớn hơn 0')
+    if not math.isfinite(args.request_interval) or args.request_interval < 0:
+        raise ValueError('--request-interval phải là số hữu hạn không âm')
+    if args.agent_cost_per_case_usd is not None and (
+        not math.isfinite(args.agent_cost_per_case_usd) or args.agent_cost_per_case_usd < 0
+    ):
+        raise ValueError('--agent-cost-per-case-usd phải là số hữu hạn không âm')
 
     database_url = os.getenv('DATABASE_URL', '')
     needs_dense = bool({'dense', 'hybrid'} & set(methods))
@@ -300,6 +336,8 @@ def main() -> None:
             top_k=args.top_k,
             max_searches=args.max_searches,
             budget=args.budget,
+            request_interval_seconds=args.request_interval,
+            agent_cost_per_case_usd=args.agent_cost_per_case_usd,
         )
         summary['benchmark_counts'] = counts[args.split]
         summary['question_id'] = args.question_id

@@ -1,0 +1,154 @@
+[
+  {
+    "query_id": "DV-T01",
+    "split": "dev",
+    "question": "What share of global GDP is attributed to low-income countries in Table O.1?",
+    "answerable": true,
+    "method": "lexical",
+    "status": "answered",
+    "answer": "Low-income countries account for 0.6% of global GDP. [wdr2024-pdf036-c02]",
+    "citations": [
+      "wdr2024-pdf036-c02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "share of global GDP in low-income countries Table O.1",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2024-pdf036-c02",
+            "source_id": "world-bank-wdr-2024",
+            "source": "World Development Report 2024: The Middle-Income Trap",
+            "page": 36,
+            "text": "VISUAL EVIDENCE — Table O.1 (printed page 4; table; region: bottom of page, four income-classification rows): Columns are shares of global population, global GDP, people in global extreme poverty, and global carbon dioxide emissions, respectively. Low-income row: 8.9% of global population, 0.6% of global GDP, 36.5% of people in global extreme poverty, and 0.5% of global carbon dioxide emissions. Lower-middle-income row: 40.3% of global population, 8.3% of global GDP, 55.4% of people in global extreme poverty, and 15.7% of global carbon dioxide emissions. Upper-middle-income row: 35.1% of global population, 30.3% of global GDP, 7.1% of people in global extreme poverty, and 48.6% of global carbon dioxide emissions. High-income row: 15.7% of global population, 60.8% of global GDP, 1.0% of people in global extreme poverty, and 35.2% of global carbon dioxide emissions.",
+            "metadata": {
+              "pdf_page": 36,
+              "visual_elements": [
+                {
+                  "element": "Table O.1",
+                  "kind": "table",
+                  "printed_page": 4,
+                  "region": "bottom of page, four income-classification rows"
+                }
+              ],
+              "contains_extracted_text": false
+            },
+            "score": 0.3625175121547801,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "wdr2024-pdf039-c02",
+            "source_id": "world-bank-wdr-2024",
+            "source": "World Development Report 2024: The Middle-Income Trap",
+            "page": 39,
+            "text": "VISUAL EVIDENCE — Table O.2 (printed page 7; table; region: top third of page, income classification by investment/infusion/innovation): Table O.2 priorities: low-income countries prioritize investment, while infusion and innovation have lower priority; lower-middle-income countries prioritize investment and infusion, while innovation has lower priority; upper-middle-income countries prioritize all three.",
+            "metadata": {
+              "pdf_page": 39,
+              "visual_elements": [
+                {
+                  "element": "Table O.2",
+                  "kind": "table",
+                  "printed_page": 7,
+                  "region": "top third of page, income classification by investment/infusion/innovation"
+                }
+              ],
+              "contains_extracted_text": false
+            },
+            "score": 0.3332870668619813,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "wdr2024-pdf063-c01",
+            "source_id": "world-bank-wdr-2024",
+            "source": "World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "text": "﻿  |  31\nPart 1\nMiddle-Income Transitions\nT\nhe share of middle-income countries in \nthe global economy is increasing—over \nhalf of countries today are middle-income. \nAs classified by the World Bank, 108 coun-\ntries qualify as middle-income. With about \nthree-fourths of the world’s population, these \n108 middle-income countries account for nearly \n40 percent of global economic activity. Of every \nfive people in extreme poverty globally, more than \nthree live in middle-income countries. And they \ngenerate well over 60 percent of all carbon dioxide \nemissions (table P1.1). Not surprisingly, they will \nplay a central role in global development, and the \ndifficulties they face should be of global concern. \nSo where are these economies headed?\nNotably, the progress of the middle-income \ncountries has slowed in recent decades. The \nmedian middle-income economy has income per \ncapita that is less than one-tenth that of the United \nStates. More surprising, this figure has remained \nalmost unchanged for 50 years. Meanwhile, the \nprospects for middle-income countries are not \nimproving in view of the direction the global \neconomy is going, from healthy to wobbling. \nAgainst these headwinds, today’s middle-income \ncountries need to make miracles to develop at \nthe pace of the 34 economies that reached high-​\nincome status between 1990 and 2021. And even \nif these headwinds were not getting stronger, \nmiddle-​income countries would still face long \nTable P1.1 World Bank country classifications and selected global indicators, 2022\nINCOME \nCLASSIFICATION\nSHARE OF GLOBAL \nPOPULATION (%)\nSHARE OF \nGLOBAL GDP (%)\nSHARE OF PEOPLE IN \nEXTREME POVERTY \nGLOBALLY (%)\nSHARE OF GLOBAL \nCARBON DIOXIDE \n(CO2) EMISSIONS (%)\nLow-income\n8.9\n0.6\n36.5\n0.5\nLower-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), \nWorld Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from \nPIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon \ndioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​\n.climatewatchdata.org/.\nNote: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank \nAtlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); \n54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of \nUS$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n﻿    31",
+            "metadata": {
+              "pdf_page": 63,
+              "visual_elements": [],
+              "contains_extracted_text": true
+            },
+            "score": 0.32623632770554,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[wdr2024-pdf036-c02 | World Development Report 2024: The Middle-Income Trap | page 36]\nVISUAL EVIDENCE — Table O.1 (printed page 4; table; region: bottom of page, four income-classification rows): Columns are shares of global population, global GDP, people in global extreme poverty, and global carbon dioxide emissions, respectively. Low-income row: 8.9% of global population, 0.6% of global GDP, 36.5% of people in global extreme poverty, and 0.5% of global carbon dioxide emissions. Lower-middle-income row: 40.3% of global population, 8.3% of global GDP, 55.4% of people in global extreme poverty, and 15.7% of global carbon dioxide emissions. Upper-middle-income row: 35.1% of global population, 30.3% of global GDP, 7.1% of people in global extreme poverty, and 48.6% of global carbon dioxide emissions. High-income row: 15.7% of global population, 60.8% of global GDP, 1.0% of people in global extreme poverty, and 35.2% of global carbon dioxide emissions.\n\n[wdr2024-pdf039-c02 | World Development Report 2024: The Middle-Income Trap | page 39]\nVISUAL EVIDENCE — Table O.2 (printed page 7; table; region: top third of page, income classification by investment/infusion/innovation): Table O.2 priorities: low-income countries prioritize investment, while infusion and innovation have lower priority; lower-middle-income countries prioritize investment and infusion, while innovation has lower priority; upper-middle-income countries prioritize all three.\n\n[wdr2024-pdf063-c01 | World Development Report 2024: The Middle-Income Trap | page 63]\n﻿  |  31\nPart 1\nMiddle-Income Transitions\nT\nhe share of middle-income countries in \nthe global economy is increasing—over \nhalf of countries today are middle-income. \nAs classified by the World Bank, 108 coun-\ntries qualify as middle-income. With about \nthree-fourths of the world’s population, these \n108 middle-income countries account for nearly \n40 percent of global economic activity. Of every \nfive people in extreme poverty globally, more than \nthree live in middle-income countries. And they \ngenerate well over 60 percent of all carbon dioxide \nemissions (table P1.1). Not surprisingly, they will \nplay a central role in global development, and the \ndifficulties they face should be of global concern. \nSo where are these economies headed?\nNotably, the progress of the middle-income \ncountries has slowed in recent decades. The \nmedian middle-income economy has income per \ncapita that is less than one-tenth that of the United \nStates. More surprising, this figure has remained \nalmost unchanged for 50 years. Meanwhile, the \nprospects for middle-income countries are not \nimproving in view of the direction the global \neconomy is going, from healthy to wobbling. \nAgainst these headwinds, today’s middle-income \ncountries need to make miracles to develop at \nthe pace of the 34 economies that reached high-​\nincome status between 1990 and 2021. And even \nif these headwinds were not getting stronger, \nmiddle-​income countries would still face long \nTable P1.1 World Bank country classifications and selected global indicators, 2022\nINCOME \nCLASSIFICATION\nSHARE OF GLOBAL \nPOPULATION (%)\nSHARE OF \nGLOBAL GDP (%)\nSHARE OF PEOPLE IN \nEXTREME POVERTY \nGLOBALLY (%)\nSHARE OF GLOBAL \nCARBON DIOXIDE \n(CO2) EMISSIONS (%)\nLow-income\n8.9\n0.6\n36.5\n0.5\nLower-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), \nWorld Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from \nPIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon \ndioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​\n.climatewatchdata.org/.\nNote: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank \nAtlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); \n54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of \nUS$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n﻿    31",
+        "context_ids": [
+          "wdr2024-pdf036-c02",
+          "wdr2024-pdf039-c02",
+          "wdr2024-pdf063-c01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "original_query_top3": [
+      {
+        "id": "wdr2024-pdf036-c02",
+        "source_id": "world-bank-wdr-2024",
+        "source": "World Development Report 2024: The Middle-Income Trap",
+        "page": 36,
+        "text": "VISUAL EVIDENCE — Table O.1 (printed page 4; table; region: bottom of page, four income-classification rows): Columns are shares of global population, global GDP, people in global extreme poverty, and global carbon dioxide emissions, respectively. Low-income row: 8.9% of global population, 0.6% of global GDP, 36.5% of people in global extreme poverty, and 0.5% of global carbon dioxide emissions. Lower-middle-income row: 40.3% of global population, 8.3% of global GDP, 55.4% of people in global extreme poverty, and 15.7% of global carbon dioxide emissions. Upper-middle-income row: 35.1% of global population, 30.3% of global GDP, 7.1% of people in global extreme poverty, and 48.6% of global carbon dioxide emissions. High-income row: 15.7% of global population, 60.8% of global GDP, 1.0% of people in global extreme poverty, and 35.2% of global carbon dioxide emissions.",
+        "metadata": {
+          "pdf_page": 36,
+          "visual_elements": [
+            {
+              "element": "Table O.1",
+              "kind": "table",
+              "printed_page": 4,
+              "region": "bottom of page, four income-classification rows"
+            }
+          ],
+          "contains_extracted_text": false
+        },
+        "score": 0.25568010267977315,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "wdr2024-pdf036-c01",
+        "source_id": "world-bank-wdr-2024",
+        "source": "World Development Report 2024: The Middle-Income Trap",
+        "page": 36,
+        "text": "4  |  WORLD DEVELOPMENT REPORT 2024 \noutput devoted to public and private invest-\nment—follow recent and historic trends, most \nmiddle-income countries are likely to experience \nsignifi­cant slowdowns between 2024 and 2100. \nCountries such as Brazil and Mexico are likely to \nbe even further behind the United States in 2100 \nthan they are today. \nOne trap or two?\nThe World Bank presently classifies 108 countries \nas “middle-income”—that is, those with annual \nincome per capita ranging from US$1,136 to \nUS$13,845.1 These countries are critical to long-\nterm global prosperity. They account for nearly \n40 percent of global economic activity, more than \n60 percent of people living in extreme poverty, \nand more than 60 percent of global carbon diox-\nide (CO2) emissions (table O.1). \nDeveloping economies change in structure as \nthey increase in size, which means that changes \nin the pace of growth stem from factors that are \nnew to them. Although these imperatives can vary \nacross countries, economic expansion, on average, \nbegins to decelerate and often reaches a plateau \nin income per capita growth, typically at about \n11 percent of US GDP per capita. Today, this figure \nwould be about US$8,000, or around the level at \nwhich countries are firmly considered upper-\nmiddle-income. A systematic slowdown in growth \nthen occurs. Development strategies relying \nlargely on capital accumulation that served these \ncountries well in their low-income phase, for many \neven during their lower-middle-income phase \nbetween US$1,136 and US$4,465—begin to yield \ndiminishing returns. Strategies based on factor \naccumulation alone are likely to steadily worsen \nresults—a natural occurrence as the marginal \nproductivity of capital declines.\nTo see why, consider this: if capital endowments \nwere the only economically relevant difference \nbetween \n­middle-income \nand \nhigh-income \ncountries today, the GDP per capita of a typical \nmiddle-income country would have been nearly \nthree-quarters of that of the United States in \n2019 (figure O.2). In fact, it is about one-fifth that \nof the United States. Its growth prospects now \ndepend increasingly on its ability to boost the \nsophistication of its production methods.\nSince 2007, the World Bank has called this \ndependence the “middle-income trap.”2 And over \nthe last 34 years, only 34 economies have suc-\nceeded in breaking out of it. \nTo achieve high-income status, a middle-​\nincome country needs to ramp up the sophis-\ntication of its economic structure. Using the \nTable O.1  World Bank country classifications and selected global indicators, 2022\nINCOME \nCLASSIFICATION\nSHARE OF \nGLOBAL \nPOPULATION (%)\nSHARE OF \nGLOBAL \nGDP (%)\nSHARE OF PEOPLE IN \nEXTREME POVERTY \nGLOBALLY (%)\nSHARE OF GLOBAL \nCARBON DIOXIDE (CO2) \nEMISSIONS (%)\nLow-income\n8.9\n0.6\n36.5\n0.5\nLower-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), \nWorld Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from \nPIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon \ndioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​\n.climatewatchdata.org/.\nNote: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank \nAtlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); \n54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of \nUS$13,846 or more). GDP = gross domestic product; GNI = gross national income.",
+        "metadata": {
+          "pdf_page": 36,
+          "visual_elements": [],
+          "contains_extracted_text": true
+        },
+        "score": 0.24296511404962523,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "wdr2024-pdf063-c01",
+        "source_id": "world-bank-wdr-2024",
+        "source": "World Development Report 2024: The Middle-Income Trap",
+        "page": 63,
+        "text": "﻿  |  31\nPart 1\nMiddle-Income Transitions\nT\nhe share of middle-income countries in \nthe global economy is increasing—over \nhalf of countries today are middle-income. \nAs classified by the World Bank, 108 coun-\ntries qualify as middle-income. With about \nthree-fourths of the world’s population, these \n108 middle-income countries account for nearly \n40 percent of global economic activity. Of every \nfive people in extreme poverty globally, more than \nthree live in middle-income countries. And they \ngenerate well over 60 percent of all carbon dioxide \nemissions (table P1.1). Not surprisingly, they will \nplay a central role in global development, and the \ndifficulties they face should be of global concern. \nSo where are these economies headed?\nNotably, the progress of the middle-income \ncountries has slowed in recent decades. The \nmedian middle-income economy has income per \ncapita that is less than one-tenth that of the United \nStates. More surprising, this figure has remained \nalmost unchanged for 50 years. Meanwhile, the \nprospects for middle-income countries are not \nimproving in view of the direction the global \neconomy is going, from healthy to wobbling. \nAgainst these headwinds, today’s middle-income \ncountries need to make miracles to develop at \nthe pace of the 34 economies that reached high-​\nincome status between 1990 and 2021. And even \nif these headwinds were not getting stronger, \nmiddle-​income countries would still face long \nTable P1.1 World Bank country classifications and selected global indicators, 2022\nINCOME \nCLASSIFICATION\nSHARE OF GLOBAL \nPOPULATION (%)\nSHARE OF \nGLOBAL GDP (%)\nSHARE OF PEOPLE IN \nEXTREME POVERTY \nGLOBALLY (%)\nSHARE OF GLOBAL \nCARBON DIOXIDE \n(CO2) EMISSIONS (%)\nLow-income\n8.9\n0.6\n36.5\n0.5\nLower-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), \nWorld Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from \nPIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon \ndioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​\n.climatewatchdata.org/.\nNote: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank \nAtlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); \n54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of \nUS$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n﻿    31",
+        "metadata": {
+          "pdf_page": 63,
+          "visual_elements": [],
+          "contains_extracted_text": true
+        },
+        "score": 0.23995097901020038,
+        "strategy": "tfidf"
+      }
+    ],
+    "context_ids": [
+      "wdr2024-pdf036-c02",
+      "wdr2024-pdf039-c02",
+      "wdr2024-pdf063-c01"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "usage": {
+      "calls": 2,
+      "prompt_tokens": 1855,
+      "candidate_tokens": 70,
+      "total_tokens": 1925
+    },
+    "elapsed_ms": 1498.4875520003698,
+    "agent_cost_usd": 0.0
+  }
+]

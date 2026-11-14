@@ -20,7 +20,7 @@ CHUNK = {
 
 
 class FakeController:
-    def __init__(self, model=None):
+    def __init__(self, model=None, min_request_interval_seconds=0.0):
         self.calls = 0
 
     def usage_snapshot(self):
@@ -41,7 +41,7 @@ class FakeRetriever:
 
 
 class BrokenController:
-    def __init__(self, model=None):
+    def __init__(self, model=None, min_request_interval_seconds=0.0):
         pass
 
     def usage_snapshot(self):
@@ -89,11 +89,15 @@ class AgentRunnerTests(unittest.TestCase):
                 top_k=3,
                 max_searches=2,
                 budget=800,
+                agent_cost_per_case_usd=0.0,
             )
         self.assertTrue(traces[1]['status'] == 'abstain')
         self.assertEqual(summary['Hit@1'], {'n': 1, 'N': 1, 'rate': 1.0})
         self.assertEqual(summary['Context_Evidence_Rate'], {'n': 1, 'N': 1, 'rate': 1.0})
         self.assertEqual(summary['unanswerable_questions'], 1)
+        self.assertEqual(summary['agent_cost_usd'], 0.0)
+        self.assertEqual(traces[0]['agent_cost_usd'], 0.0)
+        self.assertEqual(traces[1]['agent_cost_usd'], 0.0)
 
     def test_agent_errors_do_not_erase_retrieval_measurements(self):
         question = {

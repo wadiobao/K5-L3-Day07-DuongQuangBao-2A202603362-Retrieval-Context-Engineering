@@ -38,6 +38,21 @@ class BaselineTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate(self.chunks, [{**self.q, 'gold': [wrong]}])
 
+    def test_hit_normalizes_pdf_linewraps_and_discretionary_hyphens(self):
+        source = chunk(
+            'pdf',
+            '4.1\u00a0 percent versus 9.5 percent for \nwind and 2.7\u00a0\u00adpercent '
+            'versus 5.3 percent for solar.',
+            page=176,
+        )
+        gold = [{
+            'source_id': 'doc',
+            'page': 176,
+            'evidence': '4.1 percent versus 9.5 percent for wind and 2.7 percent '
+                        'versus 5.3 percent for solar',
+        }]
+        self.assertTrue(hit(source, gold))
+
     def test_budget_dedup_and_empty_query(self):
         context, ids = pack_context([self.chunks[0], self.chunks[0]], 800)
         self.assertEqual(ids, ['a'])

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "DV-T01",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-T02",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-T03",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-I01",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-I02",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-I03",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-C01",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-C02",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-C03",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-M01",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-M02",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-X01",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-X02",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-X03",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-X04",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "id": "DV-U01",
+    "split": "dev",
+    "answerable": false
+  },
+  {
+    "id": "DV-U02",
+    "split": "dev",
+    "answerable": false
+  },
+  {
+    "id": "DV-U03",
+    "split": "dev",
+    "answerable": false
+  }
+]

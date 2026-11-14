@@ -2,6 +2,7 @@ import sys
 import unittest
 from pathlib import Path
 from types import SimpleNamespace
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'starter'))
@@ -66,6 +67,27 @@ class GeminiControllerTests(unittest.TestCase):
         controller = GeminiController(client=SimpleNamespace(models=FakeModels(response)))
         with self.assertRaisesRegex(RuntimeError, 'không trả function call'):
             controller.decide('question', [])
+
+    def test_controller_respects_minimum_request_interval(self):
+        call = SimpleNamespace(name='search', args={'query': 'chapter 2'})
+        response = SimpleNamespace(
+            candidates=[SimpleNamespace(content=SimpleNamespace(parts=[
+                SimpleNamespace(function_call=call),
+            ]))],
+            usage_metadata=None,
+        )
+        controller = GeminiController(
+            client=SimpleNamespace(models=FakeModels(response)),
+            min_request_interval_seconds=6.2,
+        )
+        clock = [0.0]
+        with patch('gemini.time.monotonic', side_effect=lambda: clock[0]), patch(
+            'gemini.time.sleep',
+            side_effect=lambda delay: clock.__setitem__(0, clock[0] + delay),
+        ) as sleep:
+            controller.decide('first question', [])
+            controller.decide('second question', [])
+        sleep.assert_called_once_with(6.2)
 
     def test_embedding_matches_day6_model_and_dimensions(self):
         class FakeEmbeddingModels:
