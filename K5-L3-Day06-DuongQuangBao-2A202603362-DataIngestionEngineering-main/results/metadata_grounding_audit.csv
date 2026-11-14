@@ -1,0 +1,786 @@
+question_id,strategy,rank,question,chunk_id,text,source,page,section_id,metadata_correct,metadata_useful,filter_compliant,rationale
+q16,A,1,"In Chapter VIII, which living creatures serve as the croquet balls and mallets?",f4522b042894529e9ee2478b,"“Hush! Hush!” said the Rabbit in a low, hurried tone. He looked anxiously over his shoulder as he spoke, and then raised himself upon tiptoe, put his mouth close to her ear, and whispered “She’s under sentence of execution.”
+
+“What for?” said Alice.
+
+“Did you say ‘What a pity!’?” the Rabbit asked.
+
+“No, I didn’t,” said Alice: “I don’t think it’s at all a pity. I said ‘What for?’”
+
+“She boxed the Queen’s ears—” the Rabbit began. Alice gave a little scream of laughter. “Oh, hush!” the Rabbit whispered in a frightened tone. “The Queen will hear you! You see, she came rather late, and the Queen said—”
+
+“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.
+
+The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it _would_ twist itself round and look up in her face, with such a puzzled expression that she coul",https://www.gutenberg.org/cache/epub/11/pg11.txt,32,chapter-viii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q16,A,2,"In Chapter VIII, which living creatures serve as the croquet balls and mallets?",2e1555428f26a0b0b6c2e538,"“How are you getting on?” said the Cat, as soon as there was mouth enough for it to speak with.
+
+Alice waited till the eyes appeared, and then nodded. “It’s no use speaking to it,” she thought, “till its ears have come, or at least one of them.” In another minute the whole head appeared, and then Alice put down her flamingo, and began an account of the game, feeling very glad she had someone to listen to her. The Cat seemed to think that there was enough of it now in sight, and no more of it appeared.
+
+“I don’t think they play at all fairly,” Alice began, in rather a complaining tone, “and they all quarrel so dreadfully one can’t hear oneself speak—and they don’t seem to have any rules in particular; at least, if there are, nobody attends to them—and you’ve no idea how confusing it is all the things being alive; for instance, there’s the arch I’ve got to go through next walking about at the other end of the ground—and I should have croqueted the Queen’s hedgehog just now, only it ran away when it saw mine coming!”
+
+“How do you like the Queen?” said the Cat in a low voice.
+
+“Not at all,” said Alice: “she’s so extremely—” Just then she noticed that the Queen was close behind her, listening: so she went on, “—likely to win, that it’s hardly worth while finishing the game.”
+
+The Queen smiled and passed on.
+
+“Who _are_ you talking to?” said the King, going up to Alice, and looking at the Cat’s head with great curiosity.
+
+“It’s a friend of mine—a Cheshire Cat,” said Alice: “allow m",https://www.gutenberg.org/cache/epub/11/pg11.txt,33,chapter-viii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q16,A,3,"In Chapter VIII, which living creatures serve as the croquet balls and mallets?",33e16bc731545aa9cd84577f,"feel a little worried.
+
+“Just about as much right,” said the Duchess, “as pigs have to fly; and the m—”
+
+But here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble. Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm.
+
+“A fine day, your Majesty!” the Duchess began in a low, weak voice.
+
+“Now, I give you fair warning,” shouted the Queen, stamping on the ground as she spoke; “either you or your head must be off, and that in about half no time! Take your choice!”
+
+The Duchess took her choice, and was gone in a moment.
+
+“Let’s go on with the game,” the Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground.
+
+The other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives.
+
+All the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!” Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in cust",https://www.gutenberg.org/cache/epub/11/pg11.txt,36,chapter-ix,True,True,False,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q16,B,1,"In Chapter VIII, which living creatures serve as the croquet balls and mallets?",beeaef88d5993a166789d1dd,"“Hush! Hush!” said the Rabbit in a low, hurried tone. He looked anxiously over his shoulder as he spoke, and then raised himself upon tiptoe, put his mouth close to her ear, and whispered “She’s under sentence of execution.”
+
+“What for?” said Alice.
+
+“Did you say ‘What a pity!’?” the Rabbit asked.
+
+“No, I didn’t,” said Alice: “I don’t think it’s at all a pity. I said ‘What for?’”
+
+“She boxed the Queen’s ears—” the Rabbit began. Alice gave a little scream of laughter. “Oh, hush!” the Rabbit whispered in a frightened tone. “The Queen will hear you! You see, she came rather late, and the Queen said—”
+
+“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.",https://www.gutenberg.org/cache/epub/11/pg11.txt,32,chapter-viii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q16,B,2,"In Chapter VIII, which living creatures serve as the croquet balls and mallets?",b407855b35f072c377230bb2,"The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it _would_ twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing: and when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away: besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed.
+
+The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about, and shouting “Off with his head!” or “Off with her head!” about once in a minute.
+
+Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute, “and then,” thought she, “what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!”",https://www.gutenberg.org/cache/epub/11/pg11.txt,32,chapter-viii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q16,B,3,"In Chapter VIII, which living creatures serve as the croquet balls and mallets?",82855859880e0f7ae77c42f9,"The hedgehog was engaged in a fight with another hedgehog, which seemed to Alice an excellent opportunity for croqueting one of them with the other: the only difficulty was, that her flamingo was gone across to the other side of the garden, where Alice could see it trying in a helpless sort of way to fly up into a tree.",https://www.gutenberg.org/cache/epub/11/pg11.txt,33,chapter-viii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q16,C,1,"In Chapter VIII, which living creatures serve as the croquet balls and mallets?",beeaef88d5993a166789d1dd,"“Hush! Hush!” said the Rabbit in a low, hurried tone. He looked anxiously over his shoulder as he spoke, and then raised himself upon tiptoe, put his mouth close to her ear, and whispered “She’s under sentence of execution.”
+
+“What for?” said Alice.
+
+“Did you say ‘What a pity!’?” the Rabbit asked.
+
+“No, I didn’t,” said Alice: “I don’t think it’s at all a pity. I said ‘What for?’”
+
+“She boxed the Queen’s ears—” the Rabbit began. Alice gave a little scream of laughter. “Oh, hush!” the Rabbit whispered in a frightened tone. “The Queen will hear you! You see, she came rather late, and the Queen said—”
+
+“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.",https://www.gutenberg.org/cache/epub/11/pg11.txt,32,chapter-viii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page. The retrieved hit also complies with the requested chapter filter."
+q16,C,2,"In Chapter VIII, which living creatures serve as the croquet balls and mallets?",b407855b35f072c377230bb2,"The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it _would_ twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing: and when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away: besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed.
+
+The players all played at once without waiting for turns, quarrelling all the while, and fighting for the hedgehogs; and in a very short time the Queen was in a furious passion, and went stamping about, and shouting “Off with his head!” or “Off with her head!” about once in a minute.
+
+Alice began to feel very uneasy: to be sure, she had not as yet had any dispute with the Queen, but she knew that it might happen any minute, “and then,” thought she, “what would become of me? They’re dreadfully fond of beheading people here; the great wonder is, that there’s any one left alive!”",https://www.gutenberg.org/cache/epub/11/pg11.txt,32,chapter-viii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page. The retrieved hit also complies with the requested chapter filter."
+q16,C,3,"In Chapter VIII, which living creatures serve as the croquet balls and mallets?",82855859880e0f7ae77c42f9,"The hedgehog was engaged in a fight with another hedgehog, which seemed to Alice an excellent opportunity for croqueting one of them with the other: the only difficulty was, that her flamingo was gone across to the other side of the garden, where Alice could see it trying in a helpless sort of way to fly up into a tree.",https://www.gutenberg.org/cache/epub/11/pg11.txt,33,chapter-viii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page. The retrieved hit also complies with the requested chapter filter."
+q17,A,1,What two subjects does the Mock Turtle name first when describing his lessons?,01a505a3f27a7cd1ff419523,"at the end of the bill, ‘French, music, _and washing_—extra.’”
+
+“You couldn’t have wanted it much,” said Alice; “living at the bottom of the sea.”
+
+“I couldn’t afford to learn it.” said the Mock Turtle with a sigh. “I only took the regular course.”
+
+“What was that?” inquired Alice.
+
+“Reeling and Writhing, of course, to begin with,” the Mock Turtle replied; “and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision.”
+
+“I never heard of ‘Uglification,’” Alice ventured to say. “What is it?”
+
+The Gryphon lifted up both its paws in surprise. “What! Never heard of uglifying!” it exclaimed. “You know what to beautify is, I suppose?”
+
+“Yes,” said Alice doubtfully: “it means—to—make—anything—prettier.”
+
+“Well, then,” the Gryphon went on, “if you don’t know what to uglify is, you _are_ a simpleton.”
+
+Alice did not feel encouraged to ask any more questions about it, so she turned to the Mock Turtle, and said “What else had you to learn?”
+
+“Well, there was Mystery,” the Mock Turtle replied, counting off the subjects on his flappers, “—Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: _he_ taught us Drawling, Stretching, and Fainting in Coils.”
+
+“What was _that_ like?” said Alice.
+
+“Well, I can’t show it you myself,” the Mock Turtle said: “I’m too stiff. And the Gryphon never learnt it.”
+
+“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was",https://www.gutenberg.org/cache/epub/11/pg11.txt,38,chapter-ix,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q17,A,2,What two subjects does the Mock Turtle name first when describing his lessons?,78066c3387fc6111f73971da,"never learnt it.”
+
+“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was an old crab, _he_ was.”
+
+“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”
+
+“So he did, so he did,” said the Gryphon, sighing in his turn; and both creatures hid their faces in their paws.
+
+“And how many hours a day did you do lessons?” said Alice, in a hurry to change the subject.
+
+“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”
+
+“What a curious plan!” exclaimed Alice.
+
+“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”
+
+This was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”
+
+“Of course it was,” said the Mock Turtle.
+
+“And how did you manage on the twelfth?” Alice went on eagerly.
+
+“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the games now.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,38,chapter-ix,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q17,A,3,What two subjects does the Mock Turtle name first when describing his lessons?,ae958e476c7fe4e1db9da575,"“When we were little,” the Mock Turtle went on at last, more calmly, though still sobbing a little now and then, “we went to school in the sea. The master was an old Turtle—we used to call him Tortoise—”
+
+“Why did you call him Tortoise, if he wasn’t one?” Alice asked.
+
+“We called him Tortoise because he taught us,” said the Mock Turtle angrily: “really you are very dull!”
+
+“You ought to be ashamed of yourself for asking such a simple question,” added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth. At last the Gryphon said to the Mock Turtle, “Drive on, old fellow! Don’t be all day about it!” and he went on in these words:
+
+“Yes, we went to school in the sea, though you mayn’t believe it—”
+
+“I never said I didn’t!” interrupted Alice.
+
+“You did,” said the Mock Turtle.
+
+“Hold your tongue!” added the Gryphon, before Alice could speak again. The Mock Turtle went on.
+
+“We had the best of educations—in fact, we went to school every day—”
+
+“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”
+
+“With extras?” asked the Mock Turtle a little anxiously.
+
+“Yes,” said Alice, “we learned French and music.”
+
+“And washing?” said the Mock Turtle.
+
+“Certainly not!” said Alice indignantly.
+
+“Ah! then yours wasn’t a really good school,” said the Mock Turtle in a tone of great relief. “Now at _ours_ they had at the end of the bill, ‘French, music, _and washing_—extra.’”
+
+“You couldn’t have wanted it much,”",https://www.gutenberg.org/cache/epub/11/pg11.txt,38,chapter-ix,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q17,B,1,What two subjects does the Mock Turtle name first when describing his lessons?,3fbd92ad71d17d187140e328,"“You couldn’t have wanted it much,” said Alice; “living at the bottom of the sea.”
+
+“I couldn’t afford to learn it.” said the Mock Turtle with a sigh. “I only took the regular course.”
+
+“What was that?” inquired Alice.
+
+“Reeling and Writhing, of course, to begin with,” the Mock Turtle replied; “and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision.”
+
+“I never heard of ‘Uglification,’” Alice ventured to say. “What is it?”
+
+The Gryphon lifted up both its paws in surprise. “What! Never heard of uglifying!” it exclaimed. “You know what to beautify is, I suppose?”
+
+“Yes,” said Alice doubtfully: “it means—to—make—anything—prettier.”
+
+“Well, then,” the Gryphon went on, “if you don’t know what to uglify is, you _are_ a simpleton.”
+
+Alice did not feel encouraged to ask any more questions about it, so she turned to the Mock Turtle, and said “What else had you to learn?”
+
+“Well, there was Mystery,” the Mock Turtle replied, counting off the subjects on his flappers, “—Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: _he_ taught us Drawling, Stretching, and Fainting in Coils.”
+
+“What was _that_ like?” said Alice.
+
+“Well, I can’t show it you myself,” the Mock Turtle said: “I’m too stiff. And the Gryphon never learnt it.”
+
+“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was an old crab, _he_ was.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,38,chapter-ix,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q17,B,2,What two subjects does the Mock Turtle name first when describing his lessons?,28c0e48863f2c495a3f39890,"“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”
+
+“So he did, so he did,” said the Gryphon, sighing in his turn; and both creatures hid their faces in their paws.
+
+“And how many hours a day did you do lessons?” said Alice, in a hurry to change the subject.
+
+“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”
+
+“What a curious plan!” exclaimed Alice.
+
+“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”
+
+This was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”
+
+“Of course it was,” said the Mock Turtle.
+
+“And how did you manage on the twelfth?” Alice went on eagerly.
+
+“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the games now.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,38,chapter-ix,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q17,B,3,What two subjects does the Mock Turtle name first when describing his lessons?,e0ef3e943162de5d53d25bea,"“When we were little,” the Mock Turtle went on at last, more calmly, though still sobbing a little now and then, “we went to school in the sea. The master was an old Turtle—we used to call him Tortoise—”
+
+“Why did you call him Tortoise, if he wasn’t one?” Alice asked.
+
+“We called him Tortoise because he taught us,” said the Mock Turtle angrily: “really you are very dull!”
+
+“You ought to be ashamed of yourself for asking such a simple question,” added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth. At last the Gryphon said to the Mock Turtle, “Drive on, old fellow! Don’t be all day about it!” and he went on in these words:
+
+“Yes, we went to school in the sea, though you mayn’t believe it—”
+
+“I never said I didn’t!” interrupted Alice.
+
+“You did,” said the Mock Turtle.
+
+“Hold your tongue!” added the Gryphon, before Alice could speak again. The Mock Turtle went on.
+
+“We had the best of educations—in fact, we went to school every day—”
+
+“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”
+
+“With extras?” asked the Mock Turtle a little anxiously.
+
+“Yes,” said Alice, “we learned French and music.”
+
+“And washing?” said the Mock Turtle.
+
+“Certainly not!” said Alice indignantly.
+
+“Ah! then yours wasn’t a really good school,” said the Mock Turtle in a tone of great relief. “Now at _ours_ they had at the end of the bill, ‘French, music, _and washing_—extra.’”",https://www.gutenberg.org/cache/epub/11/pg11.txt,38,chapter-ix,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q17,C,1,What two subjects does the Mock Turtle name first when describing his lessons?,3fbd92ad71d17d187140e328,"“You couldn’t have wanted it much,” said Alice; “living at the bottom of the sea.”
+
+“I couldn’t afford to learn it.” said the Mock Turtle with a sigh. “I only took the regular course.”
+
+“What was that?” inquired Alice.
+
+“Reeling and Writhing, of course, to begin with,” the Mock Turtle replied; “and then the different branches of Arithmetic—Ambition, Distraction, Uglification, and Derision.”
+
+“I never heard of ‘Uglification,’” Alice ventured to say. “What is it?”
+
+The Gryphon lifted up both its paws in surprise. “What! Never heard of uglifying!” it exclaimed. “You know what to beautify is, I suppose?”
+
+“Yes,” said Alice doubtfully: “it means—to—make—anything—prettier.”
+
+“Well, then,” the Gryphon went on, “if you don’t know what to uglify is, you _are_ a simpleton.”
+
+Alice did not feel encouraged to ask any more questions about it, so she turned to the Mock Turtle, and said “What else had you to learn?”
+
+“Well, there was Mystery,” the Mock Turtle replied, counting off the subjects on his flappers, “—Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: _he_ taught us Drawling, Stretching, and Fainting in Coils.”
+
+“What was _that_ like?” said Alice.
+
+“Well, I can’t show it you myself,” the Mock Turtle said: “I’m too stiff. And the Gryphon never learnt it.”
+
+“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was an old crab, _he_ was.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,38,chapter-ix,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q17,C,2,What two subjects does the Mock Turtle name first when describing his lessons?,28c0e48863f2c495a3f39890,"“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”
+
+“So he did, so he did,” said the Gryphon, sighing in his turn; and both creatures hid their faces in their paws.
+
+“And how many hours a day did you do lessons?” said Alice, in a hurry to change the subject.
+
+“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”
+
+“What a curious plan!” exclaimed Alice.
+
+“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”
+
+This was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”
+
+“Of course it was,” said the Mock Turtle.
+
+“And how did you manage on the twelfth?” Alice went on eagerly.
+
+“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the games now.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,38,chapter-ix,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q17,C,3,What two subjects does the Mock Turtle name first when describing his lessons?,e0ef3e943162de5d53d25bea,"“When we were little,” the Mock Turtle went on at last, more calmly, though still sobbing a little now and then, “we went to school in the sea. The master was an old Turtle—we used to call him Tortoise—”
+
+“Why did you call him Tortoise, if he wasn’t one?” Alice asked.
+
+“We called him Tortoise because he taught us,” said the Mock Turtle angrily: “really you are very dull!”
+
+“You ought to be ashamed of yourself for asking such a simple question,” added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth. At last the Gryphon said to the Mock Turtle, “Drive on, old fellow! Don’t be all day about it!” and he went on in these words:
+
+“Yes, we went to school in the sea, though you mayn’t believe it—”
+
+“I never said I didn’t!” interrupted Alice.
+
+“You did,” said the Mock Turtle.
+
+“Hold your tongue!” added the Gryphon, before Alice could speak again. The Mock Turtle went on.
+
+“We had the best of educations—in fact, we went to school every day—”
+
+“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”
+
+“With extras?” asked the Mock Turtle a little anxiously.
+
+“Yes,” said Alice, “we learned French and music.”
+
+“And washing?” said the Mock Turtle.
+
+“Certainly not!” said Alice indignantly.
+
+“Ah! then yours wasn’t a really good school,” said the Mock Turtle in a tone of great relief. “Now at _ours_ they had at the end of the bill, ‘French, music, _and washing_—extra.’”",https://www.gutenberg.org/cache/epub/11/pg11.txt,38,chapter-ix,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q18,A,1,What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?,27837877434ef918c77baebc,"The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes. He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice. “Same as if he had a bone in his throat,” said the Gryphon: and it set to work shaking him and punching him in the back. At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:—
+
+“You may not have lived much under the sea—” (“I haven’t,” said Alice)—“and perhaps you were never even introduced to a lobster—” (Alice began to say “I once tasted—” but checked herself hastily, and said “No, never”) “—so you can have no idea what a delightful thing a Lobster Quadrille is!”
+
+“No, indeed,” said Alice. “What sort of a dance is it?”
+
+“Why,” said the Gryphon, “you first form into a line along the sea-shore—”
+
+“Two lines!” cried the Mock Turtle. “Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—”
+
+“_That_ generally takes some time,” interrupted the Gryphon.
+
+“—you advance twice—”
+
+“Each with a lobster as a partner!” cried the Gryphon.
+
+“Of course,” the Mock Turtle said: “advance twice, set to partners—”
+
+“—change lobsters, and retire in same order,” continued the Gryphon.
+
+“Then, you know,” the Mock Turtle went on, “you throw the—”
+
+“The lobsters!” shouted the Gryphon, with a bound into the air.
+
+“—as far out to sea as you can—”
+
+“Swim after them!” screamed the Gryphon.
+
+“Turn a somersault in the sea!” cried the Mock Turtle, caper",https://www.gutenberg.org/cache/epub/11/pg11.txt,39,chapter-x,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q18,A,2,What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?,a17fa83cc5d1f0ae1446d013,"wim after them!” screamed the Gryphon.
+
+“Turn a somersault in the sea!” cried the Mock Turtle, capering wildly about.
+
+“Change lobsters again!” yelled the Gryphon at the top of its voice.
+
+“Back to land again, and that’s all the first figure,” said the Mock Turtle, suddenly dropping his voice; and the two creatures, who had been jumping about like mad things all this time, sat down again very sadly and quietly, and looked at Alice.
+
+“It must be a very pretty dance,” said Alice timidly.
+
+“Would you like to see a little of it?” said the Mock Turtle.
+
+“Very much indeed,” said Alice.
+
+“Come, let’s try the first figure!” said the Mock Turtle to the Gryphon. “We can do without lobsters, you know. Which shall sing?”
+
+“Oh, _you_ sing,” said the Gryphon. “I’ve forgotten the words.”
+
+So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—
+
+“Will you walk a little faster?” said a whiting to a snail. “There’s a porpoise close behind us, and he’s treading on my tail. See how eagerly the lobsters and the turtles all advance! They are waiting on the shingle—will you come and join the dance? Will you, won’t you, will you, won’t you, will you join the dance? Will you, won’t you, will you, won’t you, won’t you join the dance?",https://www.gutenberg.org/cache/epub/11/pg11.txt,39,chapter-x,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q18,A,3,What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?,33e784ab48f6e164cd63a089,": “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.
+
+“The reason is,” said the Gryphon, “that they _would_ go with the lobsters to the dance. So they got thrown out to sea. So they had to fall a long way. So they got their tails fast in their mouths. So they couldn’t get them out again. That’s all.”
+
+“Thank you,” said Alice, “it’s very interesting. I never knew so much about a whiting before.”
+
+“I can tell you more than that, if you like,” said the Gryphon. “Do you know why it’s called a whiting?”
+
+“I never thought about it,” said Alice. “Why?”
+
+“_It does the boots and shoes_,” the Gryphon replied very solemnly.
+
+Alice was thoroughly puzzled. “Does the boots and shoes!” she repeated in a wondering tone.
+
+“Why, what are _your_ shoes done with?” said the Gryphon. “I mean, what makes them so shiny?”
+
+Alice looked down at them, and considered a little before she gave her answer. “They’re done with blacking, I believe.”
+
+“Boots and shoes under the sea,” the Gryphon went on in a deep voice, “are done with a whiting. Now you know.”
+
+“And what are they made of?” Alice asked in a tone of great curiosity.
+
+“Soles and eels, of course,” the Gryphon replied rather impatiently: “any shrimp could have told you that.”
+
+“If I’d been the whiting,” said Alice, whose thoughts were still running on the song, “I’d have said to the po",https://www.gutenberg.org/cache/epub/11/pg11.txt,40,chapter-x,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q18,B,1,What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?,6cde0ab89edf6e3aed2578f5,"The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes. He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice. “Same as if he had a bone in his throat,” said the Gryphon: and it set to work shaking him and punching him in the back. At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:—
+
+“You may not have lived much under the sea—” (“I haven’t,” said Alice)—“and perhaps you were never even introduced to a lobster—” (Alice began to say “I once tasted—” but checked herself hastily, and said “No, never”) “—so you can have no idea what a delightful thing a Lobster Quadrille is!”
+
+“No, indeed,” said Alice. “What sort of a dance is it?”
+
+“Why,” said the Gryphon, “you first form into a line along the sea-shore—”
+
+“Two lines!” cried the Mock Turtle. “Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—”
+
+“_That_ generally takes some time,” interrupted the Gryphon.
+
+“—you advance twice—”
+
+“Each with a lobster as a partner!” cried the Gryphon.
+
+“Of course,” the Mock Turtle said: “advance twice, set to partners—”
+
+“—change lobsters, and retire in same order,” continued the Gryphon.
+
+“Then, you know,” the Mock Turtle went on, “you throw the—”
+
+“The lobsters!” shouted the Gryphon, with a bound into the air.
+
+“—as far out to sea as you can—”
+
+“Swim after them!” screamed the Gryphon.",https://www.gutenberg.org/cache/epub/11/pg11.txt,39,chapter-x,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q18,B,2,What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?,0492c32c928cc4a6e08e1b54,"“Turn a somersault in the sea!” cried the Mock Turtle, capering wildly about.
+
+“Change lobsters again!” yelled the Gryphon at the top of its voice.
+
+“Back to land again, and that’s all the first figure,” said the Mock Turtle, suddenly dropping his voice; and the two creatures, who had been jumping about like mad things all this time, sat down again very sadly and quietly, and looked at Alice.
+
+“It must be a very pretty dance,” said Alice timidly.
+
+“Would you like to see a little of it?” said the Mock Turtle.
+
+“Very much indeed,” said Alice.
+
+“Come, let’s try the first figure!” said the Mock Turtle to the Gryphon. “We can do without lobsters, you know. Which shall sing?”
+
+“Oh, _you_ sing,” said the Gryphon. “I’ve forgotten the words.”
+
+So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—
+
+“Will you walk a little faster?” said a whiting to a snail. “There’s a porpoise close behind us, and he’s treading on my tail. See how eagerly the lobsters and the turtles all advance! They are waiting on the shingle—will you come and join the dance? Will you, won’t you, will you, won’t you, will you join the dance? Will you, won’t you, will you, won’t you, won’t you join the dance?",https://www.gutenberg.org/cache/epub/11/pg11.txt,39,chapter-x,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q18,B,3,What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?,0b957ee9ed86f6c7db7b7606,"“You’re wrong about the crumbs,” said the Mock Turtle: “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.
+
+“The reason is,” said the Gryphon, “that they _would_ go with the lobsters to the dance. So they got thrown out to sea. So they had to fall a long way. So they got their tails fast in their mouths. So they couldn’t get them out again. That’s all.”
+
+“Thank you,” said Alice, “it’s very interesting. I never knew so much about a whiting before.”
+
+“I can tell you more than that, if you like,” said the Gryphon. “Do you know why it’s called a whiting?”
+
+“I never thought about it,” said Alice. “Why?”
+
+“_It does the boots and shoes_,” the Gryphon replied very solemnly.
+
+Alice was thoroughly puzzled. “Does the boots and shoes!” she repeated in a wondering tone.
+
+“Why, what are _your_ shoes done with?” said the Gryphon. “I mean, what makes them so shiny?”
+
+Alice looked down at them, and considered a little before she gave her answer. “They’re done with blacking, I believe.”
+
+“Boots and shoes under the sea,” the Gryphon went on in a deep voice, “are done with a whiting. Now you know.”
+
+“And what are they made of?” Alice asked in a tone of great curiosity.
+
+“Soles and eels, of course,” the Gryphon replied rather impatiently: “any shrimp could have told you that.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,40,chapter-x,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q18,C,1,What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?,6cde0ab89edf6e3aed2578f5,"The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes. He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice. “Same as if he had a bone in his throat,” said the Gryphon: and it set to work shaking him and punching him in the back. At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:—
+
+“You may not have lived much under the sea—” (“I haven’t,” said Alice)—“and perhaps you were never even introduced to a lobster—” (Alice began to say “I once tasted—” but checked herself hastily, and said “No, never”) “—so you can have no idea what a delightful thing a Lobster Quadrille is!”
+
+“No, indeed,” said Alice. “What sort of a dance is it?”
+
+“Why,” said the Gryphon, “you first form into a line along the sea-shore—”
+
+“Two lines!” cried the Mock Turtle. “Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—”
+
+“_That_ generally takes some time,” interrupted the Gryphon.
+
+“—you advance twice—”
+
+“Each with a lobster as a partner!” cried the Gryphon.
+
+“Of course,” the Mock Turtle said: “advance twice, set to partners—”
+
+“—change lobsters, and retire in same order,” continued the Gryphon.
+
+“Then, you know,” the Mock Turtle went on, “you throw the—”
+
+“The lobsters!” shouted the Gryphon, with a bound into the air.
+
+“—as far out to sea as you can—”
+
+“Swim after them!” screamed the Gryphon.",https://www.gutenberg.org/cache/epub/11/pg11.txt,39,chapter-x,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q18,C,2,What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?,0492c32c928cc4a6e08e1b54,"“Turn a somersault in the sea!” cried the Mock Turtle, capering wildly about.
+
+“Change lobsters again!” yelled the Gryphon at the top of its voice.
+
+“Back to land again, and that’s all the first figure,” said the Mock Turtle, suddenly dropping his voice; and the two creatures, who had been jumping about like mad things all this time, sat down again very sadly and quietly, and looked at Alice.
+
+“It must be a very pretty dance,” said Alice timidly.
+
+“Would you like to see a little of it?” said the Mock Turtle.
+
+“Very much indeed,” said Alice.
+
+“Come, let’s try the first figure!” said the Mock Turtle to the Gryphon. “We can do without lobsters, you know. Which shall sing?”
+
+“Oh, _you_ sing,” said the Gryphon. “I’ve forgotten the words.”
+
+So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—
+
+“Will you walk a little faster?” said a whiting to a snail. “There’s a porpoise close behind us, and he’s treading on my tail. See how eagerly the lobsters and the turtles all advance! They are waiting on the shingle—will you come and join the dance? Will you, won’t you, will you, won’t you, will you join the dance? Will you, won’t you, will you, won’t you, won’t you join the dance?",https://www.gutenberg.org/cache/epub/11/pg11.txt,39,chapter-x,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q18,C,3,What does the Mock Turtle say happens to the lobsters during the Lobster Quadrille?,0b957ee9ed86f6c7db7b7606,"“You’re wrong about the crumbs,” said the Mock Turtle: “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.
+
+“The reason is,” said the Gryphon, “that they _would_ go with the lobsters to the dance. So they got thrown out to sea. So they had to fall a long way. So they got their tails fast in their mouths. So they couldn’t get them out again. That’s all.”
+
+“Thank you,” said Alice, “it’s very interesting. I never knew so much about a whiting before.”
+
+“I can tell you more than that, if you like,” said the Gryphon. “Do you know why it’s called a whiting?”
+
+“I never thought about it,” said Alice. “Why?”
+
+“_It does the boots and shoes_,” the Gryphon replied very solemnly.
+
+Alice was thoroughly puzzled. “Does the boots and shoes!” she repeated in a wondering tone.
+
+“Why, what are _your_ shoes done with?” said the Gryphon. “I mean, what makes them so shiny?”
+
+Alice looked down at them, and considered a little before she gave her answer. “They’re done with blacking, I believe.”
+
+“Boots and shoes under the sea,” the Gryphon went on in a deep voice, “are done with a whiting. Now you know.”
+
+“And what are they made of?” Alice asked in a tone of great curiosity.
+
+“Soles and eels, of course,” the Gryphon replied rather impatiently: “any shrimp could have told you that.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,40,chapter-x,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q19,A,1,What was placed in the middle of the courtroom?,2ae3d78cf838d8c1af7c2e0b,"The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.
+
+Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.”
+
+The judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.
+
+“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and",https://www.gutenberg.org/cache/epub/11/pg11.txt,43,chapter-xi,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q19,A,2,What was placed in the middle of the courtroom?,91e201ca713ac656791a8c04,"One of the jurors had a pencil that squeaked. This of course, Alice could _not_ stand, and she went round the court and got behind him, and very soon found an opportunity of taking it away. She did it so quickly that the poor little juror (it was Bill, the Lizard) could not make out at all what had become of it; so, after hunting all about for it, he was obliged to write with one finger for the rest of the day; and this was of very little use, as it left no mark on the slate.
+
+“Herald, read the accusation!” said the King.
+
+On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—
+
+“The Queen of Hearts, she made some tarts, All on a summer day: The Knave of Hearts, he stole those tarts, And took them quite away!”
+
+“Consider your verdict,” the King said to the jury.
+
+“Not yet, not yet!” the Rabbit hastily interrupted. “There’s a great deal to come before that!”
+
+“Call the first witness,” said the King; and the White Rabbit blew three blasts on the trumpet, and called out, “First witness!”
+
+The first witness was the Hatter. He came in with a teacup in one hand and a piece of bread-and-butter in the other. “I beg pardon, your Majesty,” he began, “for bringing these in: but I hadn’t quite finished my tea when I was sent for.”
+
+“You ought to have finished,” said the King. “When did you begin?”
+
+The Hatter looked at the March Hare, who had followed him into the court, arm-in-arm with the Dormouse. “Fourteenth of March, I",https://www.gutenberg.org/cache/epub/11/pg11.txt,44,chapter-xi,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q19,A,3,What was placed in the middle of the courtroom?,abd59434a8e49c268bdc0218,"n found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court.
+
+“What do you know about this business?” the King said to Alice.
+
+“Nothing,” said Alice.
+
+“Nothing _whatever?_” persisted the King.
+
+“Nothing whatever,” said Alice.
+
+“That’s very important,” the King said, turning to the jury. They were just beginning to write this down on their slates, when the White Rabbit interrupted: “_Un_important, your Majesty means, of course,” he said in a very respectful tone, but frowning and making faces at him as he spoke.
+
+“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,
+
+“important—unimportant—unimportant—important—” as if he were trying which word sounded best.
+
+Some of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.
+
+At this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”
+
+Everybody looked at Alice.
+
+“_I’m_ not a mile high,” said Alice.
+
+“You are,” said the King.
+
+“Nearly two miles high,” added the Queen.
+
+“Well, I shan’t go, at any rate,” said Alice: “besides, that’s no",https://www.gutenberg.org/cache/epub/11/pg11.txt,47,chapter-xii,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q19,B,1,What was placed in the middle of the courtroom?,e7ee9c198b5c00bc74f76586,"The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.
+
+Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.”
+
+The judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.",https://www.gutenberg.org/cache/epub/11/pg11.txt,43,chapter-xi,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q19,B,2,What was placed in the middle of the courtroom?,b377b26008f0995848e610f6,"“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all. However, “jury-men” would have done just as well.
+
+The twelve jurors were all writing very busily on slates. “What are they doing?” Alice whispered to the Gryphon. “They can’t have anything to put down yet, before the trial’s begun.”
+
+“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”
+
+“Stupid things!” Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, “Silence in the court!” and the King put on his spectacles and looked anxiously round, to make out who was talking.
+
+Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him. “A nice muddle their slates’ll be in before the trial’s over!” thought Alice.",https://www.gutenberg.org/cache/epub/11/pg11.txt,43,chapter-xi,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q19,B,3,What was placed in the middle of the courtroom?,93bb2e9f433bcd3852eff2e2,"As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court.
+
+“What do you know about this business?” the King said to Alice.
+
+“Nothing,” said Alice.
+
+“Nothing _whatever?_” persisted the King.
+
+“Nothing whatever,” said Alice.
+
+“That’s very important,” the King said, turning to the jury. They were just beginning to write this down on their slates, when the White Rabbit interrupted: “_Un_important, your Majesty means, of course,” he said in a very respectful tone, but frowning and making faces at him as he spoke.
+
+“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,
+
+“important—unimportant—unimportant—important—” as if he were trying which word sounded best.
+
+Some of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.
+
+At this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”
+
+Everybody looked at Alice.
+
+“_I’m_ not a mile high,” said Alice.
+
+“You are,” said the King.",https://www.gutenberg.org/cache/epub/11/pg11.txt,47,chapter-xii,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q19,C,1,What was placed in the middle of the courtroom?,e7ee9c198b5c00bc74f76586,"The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.
+
+Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.”
+
+The judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.",https://www.gutenberg.org/cache/epub/11/pg11.txt,43,chapter-xi,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q19,C,2,What was placed in the middle of the courtroom?,b377b26008f0995848e610f6,"“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all. However, “jury-men” would have done just as well.
+
+The twelve jurors were all writing very busily on slates. “What are they doing?” Alice whispered to the Gryphon. “They can’t have anything to put down yet, before the trial’s begun.”
+
+“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”
+
+“Stupid things!” Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, “Silence in the court!” and the King put on his spectacles and looked anxiously round, to make out who was talking.
+
+Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him. “A nice muddle their slates’ll be in before the trial’s over!” thought Alice.",https://www.gutenberg.org/cache/epub/11/pg11.txt,43,chapter-xi,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q19,C,3,What was placed in the middle of the courtroom?,93bb2e9f433bcd3852eff2e2,"As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court.
+
+“What do you know about this business?” the King said to Alice.
+
+“Nothing,” said Alice.
+
+“Nothing _whatever?_” persisted the King.
+
+“Nothing whatever,” said Alice.
+
+“That’s very important,” the King said, turning to the jury. They were just beginning to write this down on their slates, when the White Rabbit interrupted: “_Un_important, your Majesty means, of course,” he said in a very respectful tone, but frowning and making faces at him as he spoke.
+
+“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,
+
+“important—unimportant—unimportant—important—” as if he were trying which word sounded best.
+
+Some of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.
+
+At this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”
+
+Everybody looked at Alice.
+
+“_I’m_ not a mile high,” said Alice.
+
+“You are,” said the King.",https://www.gutenberg.org/cache/epub/11/pg11.txt,47,chapter-xii,True,True,N/A,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q20,A,1,"In Chapter XII, what caused the jury-box to tip over?",1cca64331050a9ba3cfa898d,"“Here!” cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before.
+
+“Oh, I _beg_ your pardon!” she exclaimed in a tone of great dismay, and began picking them up again as quickly as she could, for the accident of the goldfish kept running in her head, and she had a vague sort of idea that they must be collected at once and put back into the jury-box, or they would die.
+
+“The trial cannot proceed,” said the King in a very grave voice, “until all the jurymen are back in their proper places—_all_,” he repeated with great emphasis, looking hard at Alice as he said so.
+
+Alice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move. She soon got it out again, and put it right; “not that it signifies much,” she said to herself; “I should think it would be _quite_ as much use in the trial one way up as the other.”
+
+As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the acci",https://www.gutenberg.org/cache/epub/11/pg11.txt,47,chapter-xii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q20,A,2,"In Chapter XII, what caused the jury-box to tip over?",91e201ca713ac656791a8c04,"One of the jurors had a pencil that squeaked. This of course, Alice could _not_ stand, and she went round the court and got behind him, and very soon found an opportunity of taking it away. She did it so quickly that the poor little juror (it was Bill, the Lizard) could not make out at all what had become of it; so, after hunting all about for it, he was obliged to write with one finger for the rest of the day; and this was of very little use, as it left no mark on the slate.
+
+“Herald, read the accusation!” said the King.
+
+On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—
+
+“The Queen of Hearts, she made some tarts, All on a summer day: The Knave of Hearts, he stole those tarts, And took them quite away!”
+
+“Consider your verdict,” the King said to the jury.
+
+“Not yet, not yet!” the Rabbit hastily interrupted. “There’s a great deal to come before that!”
+
+“Call the first witness,” said the King; and the White Rabbit blew three blasts on the trumpet, and called out, “First witness!”
+
+The first witness was the Hatter. He came in with a teacup in one hand and a piece of bread-and-butter in the other. “I beg pardon, your Majesty,” he began, “for bringing these in: but I hadn’t quite finished my tea when I was sent for.”
+
+“You ought to have finished,” said the King. “When did you begin?”
+
+The Hatter looked at the March Hare, who had followed him into the court, arm-in-arm with the Dormouse. “Fourteenth of March, I",https://www.gutenberg.org/cache/epub/11/pg11.txt,44,chapter-xi,True,True,False,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q20,A,3,"In Chapter XII, what caused the jury-box to tip over?",2ae3d78cf838d8c1af7c2e0b,"The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.
+
+Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.”
+
+The judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.
+
+“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and",https://www.gutenberg.org/cache/epub/11/pg11.txt,43,chapter-xi,True,True,False,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q20,B,1,"In Chapter XII, what caused the jury-box to tip over?",5b9cf47e21847e761ebc481d,"“Here!” cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before.
+
+“Oh, I _beg_ your pardon!” she exclaimed in a tone of great dismay, and began picking them up again as quickly as she could, for the accident of the goldfish kept running in her head, and she had a vague sort of idea that they must be collected at once and put back into the jury-box, or they would die.
+
+“The trial cannot proceed,” said the King in a very grave voice, “until all the jurymen are back in their proper places—_all_,” he repeated with great emphasis, looking hard at Alice as he said so.
+
+Alice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move. She soon got it out again, and put it right; “not that it signifies much,” she said to herself; “I should think it would be _quite_ as much use in the trial one way up as the other.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,47,chapter-xii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q20,B,2,"In Chapter XII, what caused the jury-box to tip over?",b377b26008f0995848e610f6,"“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all. However, “jury-men” would have done just as well.
+
+The twelve jurors were all writing very busily on slates. “What are they doing?” Alice whispered to the Gryphon. “They can’t have anything to put down yet, before the trial’s begun.”
+
+“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”
+
+“Stupid things!” Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, “Silence in the court!” and the King put on his spectacles and looked anxiously round, to make out who was talking.
+
+Alice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him. “A nice muddle their slates’ll be in before the trial’s over!” thought Alice.",https://www.gutenberg.org/cache/epub/11/pg11.txt,43,chapter-xi,True,True,False,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q20,B,3,"In Chapter XII, what caused the jury-box to tip over?",93bb2e9f433bcd3852eff2e2,"As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court.
+
+“What do you know about this business?” the King said to Alice.
+
+“Nothing,” said Alice.
+
+“Nothing _whatever?_” persisted the King.
+
+“Nothing whatever,” said Alice.
+
+“That’s very important,” the King said, turning to the jury. They were just beginning to write this down on their slates, when the White Rabbit interrupted: “_Un_important, your Majesty means, of course,” he said in a very respectful tone, but frowning and making faces at him as he spoke.
+
+“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,
+
+“important—unimportant—unimportant—important—” as if he were trying which word sounded best.
+
+Some of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.
+
+At this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”
+
+Everybody looked at Alice.
+
+“_I’m_ not a mile high,” said Alice.
+
+“You are,” said the King.",https://www.gutenberg.org/cache/epub/11/pg11.txt,47,chapter-xii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page."
+q20,C,1,"In Chapter XII, what caused the jury-box to tip over?",5b9cf47e21847e761ebc481d,"“Here!” cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before.
+
+“Oh, I _beg_ your pardon!” she exclaimed in a tone of great dismay, and began picking them up again as quickly as she could, for the accident of the goldfish kept running in her head, and she had a vague sort of idea that they must be collected at once and put back into the jury-box, or they would die.
+
+“The trial cannot proceed,” said the King in a very grave voice, “until all the jurymen are back in their proper places—_all_,” he repeated with great emphasis, looking hard at Alice as he said so.
+
+Alice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move. She soon got it out again, and put it right; “not that it signifies much,” she said to herself; “I should think it would be _quite_ as much use in the trial one way up as the other.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,47,chapter-xii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page. The retrieved hit also complies with the requested chapter filter."
+q20,C,2,"In Chapter XII, what caused the jury-box to tip over?",93bb2e9f433bcd3852eff2e2,"As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court.
+
+“What do you know about this business?” the King said to Alice.
+
+“Nothing,” said Alice.
+
+“Nothing _whatever?_” persisted the King.
+
+“Nothing whatever,” said Alice.
+
+“That’s very important,” the King said, turning to the jury. They were just beginning to write this down on their slates, when the White Rabbit interrupted: “_Un_important, your Majesty means, of course,” he said in a very respectful tone, but frowning and making faces at him as he spoke.
+
+“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,
+
+“important—unimportant—unimportant—important—” as if he were trying which word sounded best.
+
+Some of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.
+
+At this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”
+
+Everybody looked at Alice.
+
+“_I’m_ not a mile high,” said Alice.
+
+“You are,” said the King.",https://www.gutenberg.org/cache/epub/11/pg11.txt,47,chapter-xii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page. The retrieved hit also complies with the requested chapter filter."
+q20,C,3,"In Chapter XII, what caused the jury-box to tip over?",748efb9ce15082112ee071f2,"“Then it ought to be Number One,” said Alice.
+
+The King turned pale, and shut his note-book hastily. “Consider your verdict,” he said to the jury, in a low, trembling voice.
+
+“There’s more evidence to come yet, please your Majesty,” said the White Rabbit, jumping up in a great hurry; “this paper has just been picked up.”
+
+“What’s in it?” said the Queen.
+
+“I haven’t opened it yet,” said the White Rabbit, “but it seems to be a letter, written by the prisoner to—to somebody.”
+
+“It must have been that,” said the King, “unless it was written to nobody, which isn’t usual, you know.”
+
+“Who is it directed to?” said one of the jurymen.
+
+“It isn’t directed at all,” said the White Rabbit; “in fact, there’s nothing written on the _outside_.” He unfolded the paper as he spoke, and added “It isn’t a letter, after all: it’s a set of verses.”
+
+“Are they in the prisoner’s handwriting?” asked another of the jurymen.
+
+“No, they’re not,” said the White Rabbit, “and that’s the queerest thing about it.” (The jury all looked puzzled.)
+
+“He must have imitated somebody else’s hand,” said the King. (The jury all brightened up again.)
+
+“Please your Majesty,” said the Knave, “I didn’t write it, and they can’t prove I did: there’s no name signed at the end.”
+
+“If you didn’t sign it,” said the King, “that only makes the matter worse. You _must_ have meant some mischief, or else you’d have signed your name like an honest man.”",https://www.gutenberg.org/cache/epub/11/pg11.txt,48,chapter-xii,True,True,True,"Source, page, and section_id match the precheck and source-unit inventory; source/page support tracing this hit to the corpus, while section_id identifies its chapter. Limitation: page is a generated logical page, not a printed-edition page. The retrieved hit also complies with the requested chapter filter."
